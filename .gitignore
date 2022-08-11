@@ -6,3 +6,4 @@ riderModule.iml
 */.vs/*
 .vs/
 .idea/
+*.user
