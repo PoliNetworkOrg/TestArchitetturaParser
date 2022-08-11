@@ -31,5 +31,6 @@ for (int i = 2007; i <= 2019; i++)
 
 var stringOut = Newtonsoft.Json.JsonConvert.SerializeObject(results);
 File.WriteAllText("pdf/out.json",stringOut);
+File.WriteAllText("./../../../out.json",stringOut);
 
 Console.WriteLine("Done");
