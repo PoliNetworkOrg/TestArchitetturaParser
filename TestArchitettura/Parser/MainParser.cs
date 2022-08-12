@@ -1,4 +1,5 @@
-﻿using TestArchitettura.Object;
+﻿using System.Drawing;
+using TestArchitettura.Object;
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.Content;
 
@@ -74,88 +75,117 @@ public static class MainParser
             }
         }
 
+        var images = page.GetImages().ToList();
+        var markedContents = page.GetMarkedContents().ToList();
+        ;
+
         for (var i = 0; i < lettersAtLeft.Count; i++)
         {
             var questionObject =
-                GetQuestion(lettersAtSameHeight, lettersAtLeft, i);
+                GetQuestion(lettersAtSameHeight, lettersAtLeft, i, images);
 
             result.Add(questionObject);
         }
         
     }
 
-    private static QuestionObject GetQuestion(Dictionary<double,
-        List<Letter>> lettersAtSameHeight,
-        IReadOnlyList<Letter> lettersAtLeft, int i)
+    private static QuestionObject GetQuestion(Dictionary<double, List<Letter>> lettersAtSameHeight,
+        IReadOnlyList<Letter> lettersAtLeft, int i, List<IPdfImage> pdfImages)
     {
         var questionResult = new QuestionObject();
         var letterStart = lettersAtLeft[i];
         var letterEnd = i < lettersAtLeft.Count - 1 ? lettersAtLeft[i + 1] : null;
         var lettersAtSameHeightFiltered = lettersAtSameHeight
-            .Where(l => letterEnd == null
-                ? l.Key <= letterStart.Location.Y
-                : (l.Key > letterEnd.Location.Y) && l.Key <= letterStart.Location.Y)
-            .ToList();
+            .Where(l => IsIncluded(l.Key, letterStart,letterEnd)).ToList();
         var lines = lettersAtSameHeightFiltered
             .Select(l => GetLine(l.Value))
             .ToList();
 
-        var list = lines.Where(x => !string.IsNullOrEmpty(x.Trim())).ToList();
+        var list = lines.Where(x => !string.IsNullOrEmpty(x.Text?.Trim())).ToList();
 
-        AddAnswersAndQuestion(list, questionResult);
+        ;
+        var imagesFiltered = pdfImages.Where(x => IsIncluded( x.Bounds.Top, letterStart, letterEnd)).ToList();
+        ;
+        AddAnswersAndQuestion(list, questionResult, imagesFiltered);
         
         return questionResult;
     }
 
-    private static void AddAnswersAndQuestion(List<string> list, QuestionObject questionResult)
+    private static bool IsIncluded(double l, Letter letterStart, Letter? letterEnd)
+    {
+        return letterEnd == null
+            ? l <= letterStart.Location.Y
+            : (l > letterEnd.Location.Y) && l <= letterStart.Location.Y;
+    }
+
+    private static void AddAnswersAndQuestion(List<LineObject> list, QuestionObject questionResult,
+        List<IPdfImage> imagesFiltered)
     {
         var numberQuestion = GetNumberQuestion(list);
         if (numberQuestion == null)
             return;
-        
-        
-        var startAnswers = list.FirstOrDefault(x => x.StartsWith("A)"), string.Empty);
-        if (string.IsNullOrEmpty(startAnswers))
-            return;
-        
-        var indexStartAnswers = list.IndexOf(startAnswers);
-        if (indexStartAnswers < 0 || indexStartAnswers >= list.Count)
+
+        var startAnswers = list.FirstOrDefault(x => x is { Text: { } } && x.Text.StartsWith("A)"), null);
+        if (startAnswers != null && string.IsNullOrEmpty(startAnswers.Text))
             return;
 
-        var question = new List<string>();
-        for (var i = 0; i < indexStartAnswers; i++)
+        if (startAnswers != null)
         {
-            question.Add(list[i]);
-        }
+            int indexStartAnswers = Trova(list,startAnswers);
+            if (indexStartAnswers < 0 || indexStartAnswers >= list.Count)
+                return;
 
-        var answers = new List<string>();
-        for (var i = indexStartAnswers; i < list.Count; i++)
-        {
-            answers.Add(list[i]);
-        }
+            var question = new List<LineObject>();
+            for (var i = 0; i < indexStartAnswers; i++)
+            {
+                question.Add(list[i]);
+            }
 
-        question = FilterQuestion(question);
-        questionResult.SetQuestion(question);
+            var answers = new List<LineObject>();
+            for (var i = indexStartAnswers; i < list.Count; i++)
+            {
+                answers.Add(list[i]);
+            }
 
-        ;
-        var answerObjects = GetAnswers(answers);
-        ;
-        try
-        {
-            questionResult.SetAnswers(answerObjects);
-        }
-        catch
-        {
+            question = FilterQuestion(question);
+            questionResult.SetQuestion(question);
+
             ;
+            var answerObjects = GetAnswers(answers, imagesFiltered);
+            ;
+            try
+            {
+                questionResult.SetAnswers(answerObjects);
+            }
+            catch
+            {
+                ;
+            }
         }
 
         ;
         questionResult.SetNumber(numberQuestion);
     }
 
-    private static List<string> FilterQuestion(List<string> question)
+    private static int Trova(IReadOnlyList<LineObject> list, LineObject startAnswers)
     {
-        var indexList = question.Where(x => x.Contains(". ")).ToList();
+        for (var i = 0; i < list.Count; i++)
+        {
+            if (list[i].Text == startAnswers.Text)
+                return i;
+        }
+
+        return -1;
+    }
+
+    private static string? GetPng64String(IPdfImage image)
+    {
+        return image.TryGetPng(out var png) ? Convert.ToBase64String(png) : null;
+    }
+
+    private static List<LineObject> FilterQuestion(List<LineObject> question)
+    {
+        var indexList = question.Where(x => x.Text != null && x.Text.Contains(". ")).ToList();
         if (indexList.Count == 0)
             return question;
 
@@ -163,7 +193,7 @@ public static class MainParser
         if (index < 0 || index >= question.Count)
             return question;
 
-        var result = new List<string>();
+        var result = new List<LineObject>();
         for (var i = index; i < question.Count; i++)
         {
             result.Add(question[i]);
@@ -172,14 +202,15 @@ public static class MainParser
         return result;
     }
 
-    private static int? GetNumberQuestion(List<string> list)
+    private static int? GetNumberQuestion(List<LineObject> list)
     {
         ;
-        string first = list.First().Trim();
-        var x = first.Split('.');
+        var first = list.First().Text?.Trim();
+        var x = first?.Split('.');
         try
         {
-            return Convert.ToInt32(x[0]);
+            if (x != null) 
+                return Convert.ToInt32(x[0]);
         }
         catch
         {
@@ -189,7 +220,7 @@ public static class MainParser
         return null;
     }
 
-    private static Dictionary<string, AnswerObject> GetAnswers(List<string> answers)
+    private static Dictionary<string, AnswerObject> GetAnswers(List<LineObject> answers, List<IPdfImage> imagesFiltered)
     {
         ;
 
@@ -198,7 +229,10 @@ public static class MainParser
         
         foreach (var x in answers)
         {
-            var trim = x.Trim();
+            var trim = x.Text?.Trim();
+            if (trim == null) 
+                continue;
+            
             var index = trim.IndexOf(")", StringComparison.Ordinal);
             if (index < 0 || index >= trim.Length && index < 3)
             {
@@ -218,10 +252,19 @@ public static class MainParser
         return result;
     }
 
-    private static string GetLine(IEnumerable<Letter> lValue)
+    private static LineObject GetLine(IEnumerable<Letter> lValue)
     {
-        var s = lValue.Aggregate("", (current, x) => current + x.Value);
+        var enumerable = lValue.ToList();
+        var s = enumerable.Aggregate("", (current, x) => current + x.Value);
 
-        return s.Trim();
+        var text = s.Trim();
+
+        var result = new LineObject
+        {
+            Text = text,
+            Y = enumerable.Any() ? enumerable.First().Location.Y : (double?)null
+        };
+
+        return result;
     }
 }

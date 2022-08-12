@@ -7,12 +7,12 @@ namespace TestArchitettura.Object;
 public class QuestionObject
 {
     public int? Number;
-    private List<string>? _questionText;
+    private List<LineObject>? _questionText;
     public Dictionary<string, AnswerObject>? Answers = new Dictionary<string, AnswerObject>();
     private string? _answerCorrect;
 
 
-    public void SetQuestion(List<string> question)
+    public void SetQuestion(List<LineObject> question)
     {
         this._questionText = question;
     }
