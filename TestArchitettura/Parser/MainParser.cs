@@ -278,7 +278,6 @@ public static class MainParser
     {
         var testObjects = new Dictionary<int, TestObject>();
         for (var i = 2007; i <= DateTime.Now.Year; i++)
-        {
             try
             {
                 Console.WriteLine("Starting " + i);
@@ -297,9 +296,8 @@ public static class MainParser
             }
             catch (Exception e)
             {
-                Console.WriteLine("Fallito " + i + " " + e.Message );
+                Console.WriteLine("Fallito " + i + " " + e.Message);
             }
-        }
 
         return testObjects;
     }
