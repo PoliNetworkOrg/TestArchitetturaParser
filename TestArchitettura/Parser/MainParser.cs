@@ -1,17 +1,19 @@
-﻿using TestArchitettura.Object;
+﻿#region
+
+using TestArchitettura.Object;
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.Content;
 
+#endregion
+
 namespace TestArchitettura.Parser;
-
-
 
 public static class MainParser
 {
     public static TestObject GetTestObject(string pathPdf, int anno)
     {
         var document = PdfDocument.Open(pathPdf);
-        var result =  new TestObject(anno);
+        var result = new TestObject(anno);
 
         for (var i = 0; i < document.NumberOfPages; i++)
         {
@@ -37,7 +39,7 @@ public static class MainParser
             lettersAtSameHeight[height].Add(letter);
         }
 
-        var lettersAtSameLeftDistance =  new Dictionary<double, List<Letter>?>();
+        var lettersAtSameLeftDistance = new Dictionary<double, List<Letter>?>();
         foreach (var letter in page.Letters)
         {
             if (letter == null)
@@ -47,7 +49,7 @@ public static class MainParser
             if (lettersAtSameLeftDistance.ContainsKey(left) == false)
                 lettersAtSameLeftDistance[left] = new List<Letter>();
             lettersAtSameLeftDistance[left] ??= new List<Letter>();
-            
+
             lettersAtSameLeftDistance[left]?.Add(letter);
         }
 
@@ -64,10 +66,7 @@ public static class MainParser
             var letters = lettersAtSameLeftDistance[leftMin.Value];
             if (letters != null)
                 lettersAtLeft = (List<Letter>?)letters.Where(x => !string.IsNullOrEmpty(x.Value.Trim())).ToList();
-            if (lettersAtLeft != null && lettersAtLeft.Count != 0)
-            {
-                break;
-            }
+            if (lettersAtLeft != null && lettersAtLeft.Count != 0) break;
 
             leftsExcluded.Add(leftMin.Value);
         }
@@ -75,10 +74,7 @@ public static class MainParser
         var images = page.GetImages().ToList();
         var markedContents = page.GetMarkedContents().ToList();
 
-        if (markedContents.Count > 0)
-        {
-            Console.WriteLine(markedContents.Count);
-        }
+        if (markedContents.Count > 0) Console.WriteLine(markedContents.Count);
 
         for (var i = 0; i < lettersAtLeft.Count; i++)
         {
@@ -87,7 +83,6 @@ public static class MainParser
 
             result.Add(questionObject);
         }
-        
     }
 
     private static QuestionObject GetQuestion(Dictionary<double, List<Letter>> lettersAtSameHeight,
@@ -97,16 +92,16 @@ public static class MainParser
         var letterStart = lettersAtLeft[i];
         var letterEnd = i < lettersAtLeft.Count - 1 ? lettersAtLeft[i + 1] : null;
         var lettersAtSameHeightFiltered = lettersAtSameHeight
-            .Where(l => IsIncluded(l.Key, letterStart,letterEnd)).ToList();
+            .Where(l => IsIncluded(l.Key, letterStart, letterEnd)).ToList();
         var lines = lettersAtSameHeightFiltered
             .Select(l => GetLine(l.Value))
             .ToList();
 
         var list = lines.Where(x => !string.IsNullOrEmpty(x.Text?.Trim())).ToList();
 
-        var imagesFiltered = pdfImages.Where(x => IsIncluded( x.Bounds.Top, letterStart, letterEnd)).ToList();
+        var imagesFiltered = pdfImages.Where(x => IsIncluded(x.Bounds.Top, letterStart, letterEnd)).ToList();
         AddAnswersAndQuestion(list, questionResult, imagesFiltered);
-        
+
         return questionResult;
     }
 
@@ -132,21 +127,15 @@ public static class MainParser
 
         if (startAnswers != null)
         {
-            var indexStartAnswers = Trova(list,startAnswers);
+            var indexStartAnswers = Trova(list, startAnswers);
             if (indexStartAnswers < 0 || indexStartAnswers >= list.Count)
                 return;
 
             var question = new List<LineObject>();
-            for (var i = 0; i < indexStartAnswers; i++)
-            {
-                question.Add(list[i]);
-            }
+            for (var i = 0; i < indexStartAnswers; i++) question.Add(list[i]);
 
             var answers = new List<LineObject>();
-            for (var i = indexStartAnswers; i < list.Count; i++)
-            {
-                answers.Add(list[i]);
-            }
+            for (var i = indexStartAnswers; i < list.Count; i++) answers.Add(list[i]);
 
             question = FilterQuestion(question);
             questionResult.SetQuestion(question);
@@ -168,14 +157,11 @@ public static class MainParser
     private static int Trova(IReadOnlyList<LineObject> list, LineObject startAnswers)
     {
         for (var i = 0; i < list.Count; i++)
-        {
             if (list[i].Text == startAnswers.Text)
                 return i;
-        }
 
         return -1;
     }
-
 
 
     private static List<LineObject> FilterQuestion(List<LineObject> question)
@@ -189,10 +175,7 @@ public static class MainParser
             return question;
 
         var result = new List<LineObject>();
-        for (var i = index; i < question.Count; i++)
-        {
-            result.Add(question[i]);
-        }
+        for (var i = index; i < question.Count; i++) result.Add(question[i]);
 
         return result;
     }
@@ -203,7 +186,7 @@ public static class MainParser
         var x = first?.Split('.');
         try
         {
-            if (x != null) 
+            if (x != null)
                 return Convert.ToInt32(x[0]);
         }
         catch
@@ -215,9 +198,9 @@ public static class MainParser
     }
 
     private static Dictionary<string, AnswerObject> GetAnswers(
-            IReadOnlyList<LineObject> answers, 
-            IReadOnlyCollection<IPdfImage> imagesFiltered
-        )
+        IReadOnlyList<LineObject> answers,
+        IReadOnlyCollection<IPdfImage> imagesFiltered
+    )
     {
         var result = new Dictionary<string, AnswerObject>();
         string? lastDone = null;
@@ -230,7 +213,7 @@ public static class MainParser
                 continue;
 
             var index = trim.IndexOf(")", StringComparison.Ordinal);
-            if (index < 0 || index >= trim.Length && index < 3)
+            if (index < 0 || (index >= trim.Length && index < 3))
             {
                 if (lastDone != null)
                     result[lastDone].ExpandAnswer(trim);
@@ -246,17 +229,14 @@ public static class MainParser
             }
 
 
-            var pdfImages = imagesFiltered.Where(image => ImageIsInAnswer(answers, i , image.Bounds.Top))
+            var pdfImages = imagesFiltered.Where(image => ImageIsInAnswer(answers, i, image.Bounds.Top))
                 .ToList();
 
             if (lastDone == null)
                 continue;
 
             var answerObject = result[lastDone];
-            foreach (var image in pdfImages)
-            {
-                answerObject.AddImage(image);
-            }
+            foreach (var image in pdfImages) answerObject.AddImage(image);
         }
 
         return result;
@@ -267,10 +247,7 @@ public static class MainParser
         var x = answers[i];
 
         var answersCountPrevious = answers.Count - 1;
-        if (i == answersCountPrevious)
-        {
-            return x.Y >= imageY;
-        }
+        if (i == answersCountPrevious) return x.Y >= imageY;
 
         var x2 = answers[i + 1];
 

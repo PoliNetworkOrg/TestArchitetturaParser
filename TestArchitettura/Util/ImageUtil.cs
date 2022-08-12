@@ -1,4 +1,8 @@
-﻿using UglyToad.PdfPig.Content;
+﻿#region
+
+using UglyToad.PdfPig.Content;
+
+#endregion
 
 namespace TestArchitettura.Util;
 

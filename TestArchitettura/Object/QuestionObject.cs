@@ -1,4 +1,8 @@
-﻿using Newtonsoft.Json;
+﻿#region
+
+using Newtonsoft.Json;
+
+#endregion
 
 namespace TestArchitettura.Object;
 
@@ -6,10 +10,10 @@ namespace TestArchitettura.Object;
 [JsonObject(MemberSerialization.Fields)]
 public class QuestionObject
 {
-    public int? Number;
+    private string? _answerCorrect;
     private List<LineObject>? _questionText;
     public Dictionary<string, AnswerObject>? Answers = new();
-    private string? _answerCorrect;
+    public int? Number;
 
 
     public void SetQuestion(List<LineObject> question)
@@ -25,10 +29,9 @@ public class QuestionObject
         var dictionary = Answers;
         dictionary?[_answerCorrect].SetAsCorrect();
     }
-    
+
     public void SetNumber(int? numberQuestion)
     {
         Number = numberQuestion;
     }
-
 }

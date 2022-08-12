@@ -1,9 +1,13 @@
-﻿using Newtonsoft.Json;
+﻿#region
+
+using Newtonsoft.Json;
+
+#endregion
 
 namespace TestArchitettura.Object;
 
 /// <summary>
-/// Un intero test
+///     Un intero test
 /// </summary>
 [Serializable]
 [JsonObject(MemberSerialization.Fields)]

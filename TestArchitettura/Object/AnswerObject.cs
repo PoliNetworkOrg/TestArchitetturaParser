@@ -1,5 +1,10 @@
-﻿using Newtonsoft.Json;
+﻿#region
+
+using Newtonsoft.Json;
+using TestArchitettura.Util;
 using UglyToad.PdfPig.Content;
+
+#endregion
 
 namespace TestArchitettura.Object;
 
@@ -8,9 +13,9 @@ namespace TestArchitettura.Object;
 public class AnswerObject
 {
     private string? _answerId;
-    private bool _isCorrect = false;
-    private string? _textAnswer;
     private List<string> _imagesPng64 = new();
+    private bool _isCorrect;
+    private string? _textAnswer;
 
     public void SetAsCorrect()
     {
@@ -30,14 +35,14 @@ public class AnswerObject
     public void ExpandAnswer(string s)
     {
         var answer = _textAnswer;
-        if (answer != null) 
+        if (answer != null)
             _textAnswer += " " + s.Trim();
     }
 
     public void AddImage(IPdfImage image)
     {
-        var imageString = Util.ImageUtil.GetPng64String(image);
-        if (imageString != null) 
+        var imageString = ImageUtil.GetPng64String(image);
+        if (imageString != null)
             _imagesPng64.Add(imageString);
     }
 }
