@@ -1,5 +1,4 @@
-﻿using System.Drawing;
-using TestArchitettura.Object;
+﻿using TestArchitettura.Object;
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.Content;
 
@@ -77,7 +76,11 @@ public static class MainParser
 
         var images = page.GetImages().ToList();
         var markedContents = page.GetMarkedContents().ToList();
-        ;
+
+        if (markedContents.Count > 0)
+        {
+            Console.WriteLine(markedContents.Count);
+        }
 
         for (var i = 0; i < lettersAtLeft.Count; i++)
         {
@@ -90,7 +93,7 @@ public static class MainParser
     }
 
     private static QuestionObject GetQuestion(Dictionary<double, List<Letter>> lettersAtSameHeight,
-        IReadOnlyList<Letter> lettersAtLeft, int i, List<IPdfImage> pdfImages)
+        IReadOnlyList<Letter> lettersAtLeft, int i, IEnumerable<IPdfImage> pdfImages)
     {
         var questionResult = new QuestionObject();
         var letterStart = lettersAtLeft[i];
@@ -103,9 +106,7 @@ public static class MainParser
 
         var list = lines.Where(x => !string.IsNullOrEmpty(x.Text?.Trim())).ToList();
 
-        ;
         var imagesFiltered = pdfImages.Where(x => IsIncluded( x.Bounds.Top, letterStart, letterEnd)).ToList();
-        ;
         AddAnswersAndQuestion(list, questionResult, imagesFiltered);
         
         return questionResult;
@@ -118,8 +119,10 @@ public static class MainParser
             : (l > letterEnd.Location.Y) && l <= letterStart.Location.Y;
     }
 
-    private static void AddAnswersAndQuestion(List<LineObject> list, QuestionObject questionResult,
-        List<IPdfImage> imagesFiltered)
+    private static void AddAnswersAndQuestion(
+        List<LineObject> list,
+        QuestionObject questionResult,
+        IReadOnlyCollection<IPdfImage> imagesFiltered)
     {
         var numberQuestion = GetNumberQuestion(list);
         if (numberQuestion == null)
@@ -131,7 +134,7 @@ public static class MainParser
 
         if (startAnswers != null)
         {
-            int indexStartAnswers = Trova(list,startAnswers);
+            var indexStartAnswers = Trova(list,startAnswers);
             if (indexStartAnswers < 0 || indexStartAnswers >= list.Count)
                 return;
 
@@ -150,20 +153,17 @@ public static class MainParser
             question = FilterQuestion(question);
             questionResult.SetQuestion(question);
 
-            ;
             var answerObjects = GetAnswers(answers, imagesFiltered);
-            ;
             try
             {
                 questionResult.SetAnswers(answerObjects);
             }
             catch
             {
-                ;
+                // ignored
             }
         }
 
-        ;
         questionResult.SetNumber(numberQuestion);
     }
 
@@ -178,10 +178,7 @@ public static class MainParser
         return -1;
     }
 
-    private static string? GetPng64String(IPdfImage image)
-    {
-        return image.TryGetPng(out var png) ? Convert.ToBase64String(png) : null;
-    }
+
 
     private static List<LineObject> FilterQuestion(List<LineObject> question)
     {
@@ -204,7 +201,6 @@ public static class MainParser
 
     private static int? GetNumberQuestion(List<LineObject> list)
     {
-        ;
         var first = list.First().Text?.Trim();
         var x = first?.Split('.');
         try
@@ -214,16 +210,17 @@ public static class MainParser
         }
         catch
         {
-            ;
+            // ignored
         }
 
         return null;
     }
 
-    private static Dictionary<string, AnswerObject> GetAnswers(List<LineObject> answers, List<IPdfImage> imagesFiltered)
+    private static Dictionary<string, AnswerObject> GetAnswers(
+            List<LineObject> answers, 
+            IReadOnlyCollection<IPdfImage> imagesFiltered
+        )
     {
-        ;
-
         var result = new Dictionary<string, AnswerObject>();
         string? lastDone = null;
         
@@ -248,9 +245,24 @@ public static class MainParser
                 result[charId].SetAnswerId(charId);
                 lastDone = charId;
             }
+
+
+            var pdfImages = imagesFiltered.
+                Where(image => x.Y != null && Math.Abs(x.Y.Value - image.Bounds.Top) < Tolerance)
+                .ToList();
+
+            ;
+            
+            foreach (var image in pdfImages)
+            {
+                if (lastDone != null) 
+                    result[lastDone].AddImage(image);
+            }
         }
         return result;
     }
+
+    private const double Tolerance = 0.01d;
 
     private static LineObject GetLine(IEnumerable<Letter> lValue)
     {
@@ -262,7 +274,7 @@ public static class MainParser
         var result = new LineObject
         {
             Text = text,
-            Y = enumerable.Any() ? enumerable.First().Location.Y : (double?)null
+            Y = enumerable.Any() ? enumerable.First().Location.Y : null
         };
 
         return result;
