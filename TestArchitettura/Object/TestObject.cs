@@ -11,11 +11,11 @@ public class TestObject
 {
     private int _anno;
 
-    public Dictionary<int, QuestionObject> Questions = new Dictionary<int, QuestionObject>();
+    public Dictionary<int, QuestionObject> Questions = new();
 
     public TestObject(int anno)
     {
-        this._anno = anno;
+        _anno = anno;
     }
 
     public void Add(QuestionObject questionObject)
@@ -23,6 +23,6 @@ public class TestObject
         var questionObjectNumber = questionObject.Number;
         if (questionObjectNumber == null)
             return;
-        this.Questions[questionObjectNumber.Value] = questionObject;
+        Questions[questionObjectNumber.Value] = questionObject;
     }
 }

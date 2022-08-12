@@ -8,27 +8,27 @@ public class QuestionObject
 {
     public int? Number;
     private List<LineObject>? _questionText;
-    public Dictionary<string, AnswerObject>? Answers = new Dictionary<string, AnswerObject>();
+    public Dictionary<string, AnswerObject>? Answers = new();
     private string? _answerCorrect;
 
 
     public void SetQuestion(List<LineObject> question)
     {
-        this._questionText = question;
+        _questionText = question;
     }
 
     public void SetAnswers(Dictionary<string, AnswerObject>? answerObjects)
     {
-        this.Answers = answerObjects;
-        this._answerCorrect = "A";
+        Answers = answerObjects;
+        _answerCorrect = "A";
 
-        var dictionary = this.Answers;
-        dictionary?[this._answerCorrect].SetAsCorrect();
+        var dictionary = Answers;
+        dictionary?[_answerCorrect].SetAsCorrect();
     }
     
     public void SetNumber(int? numberQuestion)
     {
-        this.Number = numberQuestion;
+        Number = numberQuestion;
     }
 
 }

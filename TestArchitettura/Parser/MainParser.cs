@@ -68,10 +68,8 @@ public static class MainParser
             {
                 break;
             }
-            else
-            {
-                leftsExcluded.Add(leftMin.Value);
-            }
+
+            leftsExcluded.Add(leftMin.Value);
         }
 
         var images = page.GetImages().ToList();
@@ -116,11 +114,11 @@ public static class MainParser
     {
         return letterEnd == null
             ? l <= letterStart.Location.Y
-            : (l > letterEnd.Location.Y) && l <= letterStart.Location.Y;
+            : l > letterEnd.Location.Y && l <= letterStart.Location.Y;
     }
 
     private static void AddAnswersAndQuestion(
-        List<LineObject> list,
+        IReadOnlyList<LineObject> list,
         QuestionObject questionResult,
         IReadOnlyCollection<IPdfImage> imagesFiltered)
     {
@@ -199,7 +197,7 @@ public static class MainParser
         return result;
     }
 
-    private static int? GetNumberQuestion(List<LineObject> list)
+    private static int? GetNumberQuestion(IEnumerable<LineObject> list)
     {
         var first = list.First().Text?.Trim();
         var x = first?.Split('.');
@@ -217,7 +215,7 @@ public static class MainParser
     }
 
     private static Dictionary<string, AnswerObject> GetAnswers(
-            List<LineObject> answers, 
+            IReadOnlyList<LineObject> answers, 
             IReadOnlyCollection<IPdfImage> imagesFiltered
         )
     {
@@ -239,7 +237,7 @@ public static class MainParser
             }
             else
             {
-                var charId = trim[0..index].Trim();
+                var charId = trim[..index].Trim();
                 var answer = trim[(index + 1)..].Trim();
                 result[charId] = new AnswerObject();
                 result[charId].SetAnswerText(answer);
@@ -248,10 +246,8 @@ public static class MainParser
             }
 
 
-            ;
             var pdfImages = imagesFiltered.Where(image => ImageIsInAnswer(answers, i , image.Bounds.Top))
                 .ToList();
-            ;
 
             if (lastDone == null)
                 continue;

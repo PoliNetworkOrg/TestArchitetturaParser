@@ -12,16 +12,16 @@ if (!Directory.Exists("pdf"))
 
 var results = new Dictionary<int, TestObject>();
 
-for (int i = 2007; i <= 2019; i++)
+for (var i = 2007; i <= 2019; i++)
 {
-    Console.WriteLine("Starting "+ i.ToString());
+    Console.WriteLine("Starting "+ i);
     
-    var path = "pdf/p" + i.ToString() + ".pdf";
+    var path = "pdf/p" + i + ".pdf";
 
     if (File.Exists(path) == false)
     {
         using var client = new WebClient();
-        var url = "https://accessoprogrammato.miur.it/compiti/CompitoArchitettura" + i.ToString() + ".pdf";
+        var url = "https://accessoprogrammato.miur.it/compiti/CompitoArchitettura" + i + ".pdf";
         client.DownloadFile(url, path);
     }
 
