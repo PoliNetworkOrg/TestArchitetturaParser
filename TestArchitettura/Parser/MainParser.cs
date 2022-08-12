@@ -223,17 +223,18 @@ public static class MainParser
     {
         var result = new Dictionary<string, AnswerObject>();
         string? lastDone = null;
-        
-        foreach (var x in answers)
+
+        for (var i = 0; i < answers.Count; i++)
         {
+            var x = answers[i];
             var trim = x.Text?.Trim();
-            if (trim == null) 
+            if (trim == null)
                 continue;
-            
+
             var index = trim.IndexOf(")", StringComparison.Ordinal);
             if (index < 0 || index >= trim.Length && index < 3)
             {
-                if (lastDone != null) 
+                if (lastDone != null)
                     result[lastDone].ExpandAnswer(trim);
             }
             else
@@ -247,22 +248,41 @@ public static class MainParser
             }
 
 
-            var pdfImages = imagesFiltered.
-                Where(image => x.Y != null && Math.Abs(x.Y.Value - image.Bounds.Top) < Tolerance)
-                .ToList();
-
             ;
-            
+            var pdfImages = imagesFiltered.Where(image => ImageIsInAnswer(answers, i , image.Bounds.Top))
+                .ToList();
+            ;
+
+            if (lastDone == null)
+                continue;
+
+            var answerObject = result[lastDone];
             foreach (var image in pdfImages)
             {
-                if (lastDone != null) 
-                    result[lastDone].AddImage(image);
+                answerObject.AddImage(image);
             }
         }
+
         return result;
     }
 
-    private const double Tolerance = 0.01d;
+    private static bool ImageIsInAnswer(IReadOnlyList<LineObject> answers, int i, double imageY)
+    {
+        var x = answers[i];
+
+        var answersCountPrevious = answers.Count - 1;
+        if (i == answersCountPrevious)
+        {
+            return x.Y >= imageY;
+        }
+
+        var x2 = answers[i + 1];
+
+
+        var imageIsInAnswer = x.Y >= imageY && x2.Y <= imageY;
+        return imageIsInAnswer;
+    }
+
 
     private static LineObject GetLine(IEnumerable<Letter> lValue)
     {
