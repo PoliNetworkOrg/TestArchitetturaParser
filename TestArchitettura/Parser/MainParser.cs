@@ -1,5 +1,6 @@
 ﻿#region
 
+using System.Net;
 using TestArchitettura.Object;
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.Content;
@@ -10,7 +11,7 @@ namespace TestArchitettura.Parser;
 
 public static class MainParser
 {
-    public static TestObject GetTestObject(string pathPdf, int anno)
+    private static TestObject GetTestObject(string pathPdf, int anno)
     {
         var document = PdfDocument.Open(pathPdf);
         var result = new TestObject(anno);
@@ -271,5 +272,35 @@ public static class MainParser
         };
 
         return result;
+    }
+
+    public static Dictionary<int, TestObject> GetResults()
+    {
+        var testObjects = new Dictionary<int, TestObject>();
+        for (var i = 2007; i <= DateTime.Now.Year; i++)
+        {
+            try
+            {
+                Console.WriteLine("Starting " + i);
+
+                var path = "pdf/p" + i + ".pdf";
+
+                if (File.Exists(path) == false)
+                {
+                    using var client = new WebClient();
+                    var url = "https://accessoprogrammato.miur.it/compiti/CompitoArchitettura" + i + ".pdf";
+                    client.DownloadFile(url, path);
+                }
+
+                var r = GetTestObject(path, i);
+                testObjects[i] = r;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Fallito " + i + " " + e.Message );
+            }
+        }
+
+        return testObjects;
     }
 }
