@@ -10,7 +10,7 @@ Console.WriteLine("Hello, World!");
 if (!Directory.Exists("pdf")) Directory.CreateDirectory("pdf");
 
 
-var results = MainParser.GetResults();
+var results = await MainParser.GetResults();
 
 
 var stringOut = JsonConvert.SerializeObject(results, Formatting.Indented);

@@ -19,13 +19,13 @@ public static class MainParser
         for (var i = 0; i < document.NumberOfPages; i++)
         {
             var page = document.GetPage(i + 1);
-            ParsePage(result, page);
+            ParsePage(result, page, pageId: i);
         }
 
         return result;
     }
 
-    private static void ParsePage(TestObject result, Page page)
+    private static void ParsePage(TestObject result, Page page, int pageId)
     {
         var lettersAtSameHeight = new Dictionary<double, List<Letter>>();
         foreach (var letter in page.Letters)
@@ -82,6 +82,8 @@ public static class MainParser
             var questionObject =
                 GetQuestion(lettersAtSameHeight, lettersAtLeft, i, images);
 
+            questionObject.PageId = pageId;
+            
             result.Add(questionObject);
         }
     }
@@ -274,7 +276,7 @@ public static class MainParser
         return result;
     }
 
-    public static Dictionary<int, TestObject> GetResults()
+    public static async Task<Dictionary<int, TestObject>> GetResults()
     {
         var testObjects = new Dictionary<int, TestObject>();
         for (var i = 2007; i <= DateTime.Now.Year; i++)
@@ -286,9 +288,8 @@ public static class MainParser
 
                 if (File.Exists(path) == false)
                 {
-                    using var client = new WebClient();
                     var url = "https://accessoprogrammato.miur.it/compiti/CompitoArchitettura" + i + ".pdf";
-                    client.DownloadFile(url, path);
+                    await DownloadFile(url, path);
                 }
 
                 var r = GetTestObject(path, i);
@@ -300,5 +301,20 @@ public static class MainParser
             }
 
         return testObjects;
+    }
+
+    private static async Task DownloadFile(string url, string path)
+    {
+        HttpClient client = new HttpClient();
+        StreamContent streamContent = new StreamContent(new MemoryStream());
+        var newResponse = await client.PostAsync(url, streamContent);
+
+        var content = newResponse.Content; 
+        // actually a System.Net.Http.StreamContent instance but you do not need to cast as the actual type does not matter in this case
+
+        await using var file = System.IO.File.Create(path);
+        // create a new file to write to
+        var contentStream = await content.ReadAsStreamAsync(); // get the actual content stream
+        await contentStream.CopyToAsync(file); // copy that stream to the file stream
     }
 }

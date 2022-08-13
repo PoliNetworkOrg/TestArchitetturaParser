@@ -14,6 +14,7 @@ public class QuestionObject
     private List<LineObject>? _questionText;
     public Dictionary<string, AnswerObject>? Answers = new();
     public int? Number;
+    public int? PageId;
 
 
     public void SetQuestion(List<LineObject> question)
