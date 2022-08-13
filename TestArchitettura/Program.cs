@@ -13,7 +13,7 @@ if (!Directory.Exists("pdf")) Directory.CreateDirectory("pdf");
 var results = MainParser.GetResults();
 
 
-var stringOut = JsonConvert.SerializeObject(results);
+var stringOut = JsonConvert.SerializeObject(results, Formatting.Indented);
 File.WriteAllText("pdf/out.json", stringOut);
 File.WriteAllText("./../../../out.json", stringOut);
 
