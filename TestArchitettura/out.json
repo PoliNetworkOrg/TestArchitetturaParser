@@ -62,13 +62,15 @@
             "_textAnswer": "2, 3, 1, 4, 5"
           }
         },
-        "Number": 1
+        "Number": 1,
+        "PageId": 1
       },
       "2": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 2
+        "Number": 2,
+        "PageId": 2
       },
       "3": {
         "_answerCorrect": "A",
@@ -110,7 +112,8 @@
             "_textAnswer": "ne mette in risalto il valore funzionale"
           }
         },
-        "Number": 3
+        "Number": 3,
+        "PageId": 3
       },
       "5": {
         "_answerCorrect": "A",
@@ -152,7 +155,8 @@
             "_textAnswer": "stabiliscono una razionale prospettiva"
           }
         },
-        "Number": 5
+        "Number": 5,
+        "PageId": 5
       },
       "6": {
         "_answerCorrect": "A",
@@ -210,7 +214,8 @@
             "_textAnswer": "Nonno Ubaldo non ha traversato l'oceano Atlantico a nuoto e non riusciva a battere in velocità le balene"
           }
         },
-        "Number": 6
+        "Number": 6,
+        "PageId": 6
       },
       "7": {
         "_answerCorrect": "A",
@@ -260,7 +265,8 @@
             "_textAnswer": "Le figure 1 e 4"
           }
         },
-        "Number": 7
+        "Number": 7,
+        "PageId": 7
       },
       "8": {
         "_answerCorrect": "A",
@@ -306,7 +312,8 @@
             "_textAnswer": "938"
           }
         },
-        "Number": 8
+        "Number": 8,
+        "PageId": 8
       },
       "9": {
         "_answerCorrect": "A",
@@ -372,7 +379,8 @@
             "_textAnswer": "4"
           }
         },
-        "Number": 9
+        "Number": 9,
+        "PageId": 9
       },
       "12": {
         "_answerCorrect": "A",
@@ -414,7 +422,8 @@
             "_textAnswer": "dalle incisioni rupestri"
           }
         },
-        "Number": 12
+        "Number": 12,
+        "PageId": 12
       },
       "13": {
         "_answerCorrect": "A",
@@ -476,7 +485,8 @@
             "_textAnswer": "5, 2, 1, 3, 4"
           }
         },
-        "Number": 13
+        "Number": 13,
+        "PageId": 13
       },
       "14": {
         "_answerCorrect": "A",
@@ -522,13 +532,15 @@
             "_textAnswer": "Thomas Jefferson"
           }
         },
-        "Number": 14
+        "Number": 14,
+        "PageId": 14
       },
       "4": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 4
+        "Number": 4,
+        "PageId": 4
       },
       "16": {
         "_answerCorrect": "A",
@@ -574,7 +586,8 @@
             "_textAnswer": "Figura 1"
           }
         },
-        "Number": 16
+        "Number": 16,
+        "PageId": 16
       },
       "17": {
         "_answerCorrect": "A",
@@ -616,7 +629,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 17
+        "Number": 17,
+        "PageId": 17
       },
       "19": {
         "_answerCorrect": "A",
@@ -662,7 +676,8 @@
             "_textAnswer": "Rosso, blu e giallo sono colori primari"
           }
         },
-        "Number": 19
+        "Number": 19,
+        "PageId": 19
       },
       "20": {
         "_answerCorrect": "A",
@@ -704,7 +719,8 @@
             "_textAnswer": "1-b, 2-c, 3-a"
           }
         },
-        "Number": 20
+        "Number": 20,
+        "PageId": 20
       },
       "21": {
         "_answerCorrect": "A",
@@ -746,7 +762,8 @@
             "_textAnswer": "a-5; b-3; c-1; d-2, e-4"
           }
         },
-        "Number": 21
+        "Number": 21,
+        "PageId": 21
       },
       "23": {
         "_answerCorrect": "A",
@@ -792,7 +809,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 23
+        "Number": 23,
+        "PageId": 23
       },
       "24": {
         "_answerCorrect": "A",
@@ -834,7 +852,8 @@
             "_textAnswer": "due numeri interi"
           }
         },
-        "Number": 24
+        "Number": 24,
+        "PageId": 24
       },
       "26": {
         "_answerCorrect": "A",
@@ -900,7 +919,8 @@
             "_textAnswer": "."
           }
         },
-        "Number": 26
+        "Number": 26,
+        "PageId": 26
       },
       "28": {
         "_answerCorrect": "A",
@@ -958,7 +978,8 @@
             "_textAnswer": "Asso di cuori"
           }
         },
-        "Number": 28
+        "Number": 28,
+        "PageId": 9
       },
       "30": {
         "_answerCorrect": "A",
@@ -1024,7 +1045,8 @@
             "_textAnswer": "2"
           }
         },
-        "Number": 30
+        "Number": 30,
+        "PageId": 10
       },
       "31": {
         "_answerCorrect": "A",
@@ -1070,7 +1092,8 @@
             "_textAnswer": "3/4 delle odalische hanno sia capelli che occhi neri"
           }
         },
-        "Number": 31
+        "Number": 31,
+        "PageId": 10
       },
       "10": {
         "_answerCorrect": "A",
@@ -1116,7 +1139,8 @@
             "_textAnswer": "24"
           }
         },
-        "Number": 10
+        "Number": 10,
+        "PageId": 10
       },
       "33": {
         "_answerCorrect": "A",
@@ -1182,7 +1206,8 @@
             "_textAnswer": "15 Test di Storia"
           }
         },
-        "Number": 33
+        "Number": 33,
+        "PageId": 11
       },
       "11": {
         "_answerCorrect": "A",
@@ -1244,7 +1269,8 @@
             "_textAnswer": "2-c, 1-a, 4-e, 3-d, 5-b"
           }
         },
-        "Number": 11
+        "Number": 11,
+        "PageId": 11
       },
       "41": {
         "_answerCorrect": "A",
@@ -1306,7 +1332,8 @@
             "_textAnswer": "4, 2, 1, 3, 5"
           }
         },
-        "Number": 41
+        "Number": 41,
+        "PageId": 13
       },
       "42": {
         "_answerCorrect": "A",
@@ -1348,7 +1375,8 @@
             "_textAnswer": "una colonna integrata nella muratura senza funzione portante"
           }
         },
-        "Number": 42
+        "Number": 42,
+        "PageId": 13
       },
       "43": {
         "_answerCorrect": "A",
@@ -1390,7 +1418,8 @@
             "_textAnswer": "Paul Klee"
           }
         },
-        "Number": 43
+        "Number": 43,
+        "PageId": 13
       },
       "44": {
         "_answerCorrect": "A",
@@ -1432,7 +1461,8 @@
             "_textAnswer": "infermiere"
           }
         },
-        "Number": 44
+        "Number": 44,
+        "PageId": 13
       },
       "46": {
         "_answerCorrect": "A",
@@ -1474,7 +1504,8 @@
             "_textAnswer": "Impero - Regno - Impero"
           }
         },
-        "Number": 46
+        "Number": 46,
+        "PageId": 14
       },
       "47": {
         "_answerCorrect": "A",
@@ -1516,7 +1547,8 @@
             "_textAnswer": "31a.c. Battaglia di Azio"
           }
         },
-        "Number": 47
+        "Number": 47,
+        "PageId": 14
       },
       "48": {
         "_answerCorrect": "A",
@@ -1558,7 +1590,8 @@
             "_textAnswer": "Alla riforma introdotta da Giulio Cesare"
           }
         },
-        "Number": 48
+        "Number": 48,
+        "PageId": 14
       },
       "49": {
         "_answerCorrect": "A",
@@ -1600,7 +1633,8 @@
             "_textAnswer": "Prussia"
           }
         },
-        "Number": 49
+        "Number": 49,
+        "PageId": 14
       },
       "50": {
         "_answerCorrect": "A",
@@ -1642,7 +1676,8 @@
             "_textAnswer": "476 d.c."
           }
         },
-        "Number": 50
+        "Number": 50,
+        "PageId": 14
       },
       "52": {
         "_answerCorrect": "A",
@@ -1692,7 +1727,8 @@
             "_textAnswer": "Figura 1"
           }
         },
-        "Number": 52
+        "Number": 52,
+        "PageId": 15
       },
       "15": {
         "_answerCorrect": "A",
@@ -1738,7 +1774,8 @@
             "_textAnswer": "Figura 2"
           }
         },
-        "Number": 15
+        "Number": 15,
+        "PageId": 15
       },
       "54": {
         "_answerCorrect": "A",
@@ -1792,7 +1829,8 @@
             "_textAnswer": "Figura 1"
           }
         },
-        "Number": 54
+        "Number": 54,
+        "PageId": 16
       },
       "56": {
         "_answerCorrect": "A",
@@ -1834,7 +1872,8 @@
             "_textAnswer": "a 1:100 b 1:250"
           }
         },
-        "Number": 56
+        "Number": 56,
+        "PageId": 17
       },
       "58": {
         "_answerCorrect": "A",
@@ -1876,13 +1915,15 @@
             "_textAnswer": "1-b, 2-a, 3-c"
           }
         },
-        "Number": 58
+        "Number": 58,
+        "PageId": 18
       },
       "18": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 18
+        "Number": 18,
+        "PageId": 18
       },
       "61": {
         "_answerCorrect": "A",
@@ -1924,7 +1965,8 @@
             "_textAnswer": "1 4 3 2"
           }
         },
-        "Number": 61
+        "Number": 61,
+        "PageId": 20
       },
       "63": {
         "_answerCorrect": "A",
@@ -1970,7 +2012,8 @@
             "_textAnswer": "Punto 1 – antimeridiana"
           }
         },
-        "Number": 63
+        "Number": 63,
+        "PageId": 21
       },
       "65": {
         "_answerCorrect": "A",
@@ -2016,7 +2059,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 65
+        "Number": 65,
+        "PageId": 22
       },
       "22": {
         "_answerCorrect": "A",
@@ -2062,7 +2106,8 @@
             "_textAnswer": "1 – 2"
           }
         },
-        "Number": 22
+        "Number": 22,
+        "PageId": 22
       },
       "67": {
         "_answerCorrect": "A",
@@ -2108,7 +2153,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 67
+        "Number": 67,
+        "PageId": 23
       },
       "69": {
         "_answerCorrect": "A",
@@ -2158,7 +2204,8 @@
             "_textAnswer": "b = 1:500 Test di Fisica e Matematica"
           }
         },
-        "Number": 69
+        "Number": 69,
+        "PageId": 24
       },
       "70": {
         "_answerCorrect": "A",
@@ -2204,7 +2251,8 @@
             "_textAnswer": "3/25 22−−=xx"
           }
         },
-        "Number": 70
+        "Number": 70,
+        "PageId": 24
       },
       "72": {
         "_answerCorrect": "A",
@@ -2246,7 +2294,8 @@
             "_textAnswer": "misura 100 dm 2"
           }
         },
-        "Number": 72
+        "Number": 72,
+        "PageId": 25
       },
       "73": {
         "_answerCorrect": "A",
@@ -2296,7 +2345,8 @@
             "_textAnswer": "36m 72+x"
           }
         },
-        "Number": 73
+        "Number": 73,
+        "PageId": 25
       },
       "74": {
         "_answerCorrect": "A",
@@ -2354,7 +2404,8 @@
             "_textAnswer": "2/5<x"
           }
         },
-        "Number": 74
+        "Number": 74,
+        "PageId": 25
       },
       "75": {
         "_answerCorrect": "A",
@@ -2400,7 +2451,8 @@
             "_textAnswer": " π 3"
           }
         },
-        "Number": 75
+        "Number": 75,
+        "PageId": 25
       },
       "76": {
         "_answerCorrect": "A",
@@ -2452,7 +2504,8 @@
             "_textAnswer": "8 log x 10 2"
           }
         },
-        "Number": 76
+        "Number": 76,
+        "PageId": 25
       },
       "25": {
         "_answerCorrect": "A",
@@ -2494,7 +2547,8 @@
             "_textAnswer": " 2>K"
           }
         },
-        "Number": 25
+        "Number": 25,
+        "PageId": 25
       },
       "78": {
         "_answerCorrect": "A",
@@ -2544,7 +2598,8 @@
             "_textAnswer": "Q / 2"
           }
         },
-        "Number": 78
+        "Number": 78,
+        "PageId": 26
       },
       "79": {
         "_answerCorrect": "A",
@@ -2598,7 +2653,8 @@
             "_textAnswer": "Le due grandezze sono direttamente proporzionali ed il coefficiente di proporzionalità vale 2"
           }
         },
-        "Number": 79
+        "Number": 79,
+        "PageId": 26
       }
     }
   },
@@ -2645,7 +2701,8 @@
             "_textAnswer": "un esplosivo a base di carbone"
           }
         },
-        "Number": 1
+        "Number": 1,
+        "PageId": 1
       },
       "7": {
         "_answerCorrect": "A",
@@ -2711,7 +2768,8 @@
             "_textAnswer": "Tutti e sei"
           }
         },
-        "Number": 7
+        "Number": 7,
+        "PageId": 7
       },
       "8": {
         "_answerCorrect": "A",
@@ -2775,7 +2833,8 @@
             "_textAnswer": "è una scultura di:"
           }
         },
-        "Number": 8
+        "Number": 8,
+        "PageId": 8
       },
       "9": {
         "_answerCorrect": "A",
@@ -2821,13 +2880,15 @@
             "_textAnswer": "Giorgio De Chirico"
           }
         },
-        "Number": 9
+        "Number": 9,
+        "PageId": 9
       },
       "2": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 2
+        "Number": 2,
+        "PageId": 2
       },
       "11": {
         "_answerCorrect": "A",
@@ -2869,7 +2930,8 @@
             "_textAnswer": "Una figura retorica intermedia tra la metafora e la metonimia"
           }
         },
-        "Number": 11
+        "Number": 11,
+        "PageId": 11
       },
       "12": {
         "_answerCorrect": "A",
@@ -2911,7 +2973,8 @@
             "_textAnswer": "tetraedro"
           }
         },
-        "Number": 12
+        "Number": 12,
+        "PageId": 12
       },
       "13": {
         "_answerCorrect": "A",
@@ -2965,7 +3028,8 @@
             "_textAnswer": "bianco=1;  grigio=1; nero=1"
           }
         },
-        "Number": 13
+        "Number": 13,
+        "PageId": 13
       },
       "3": {
         "_answerCorrect": "A",
@@ -3011,7 +3075,8 @@
             "_textAnswer": "cercato di trarre piacere da esperienze sempre nuove"
           }
         },
-        "Number": 3
+        "Number": 3,
+        "PageId": 3
       },
       "15": {
         "_answerCorrect": "A",
@@ -3053,7 +3118,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 15
+        "Number": 15,
+        "PageId": 15
       },
       "16": {
         "_answerCorrect": "A",
@@ -3099,7 +3165,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 16
+        "Number": 16,
+        "PageId": 16
       },
       "4": {
         "_answerCorrect": "A",
@@ -3141,7 +3208,8 @@
             "_textAnswer": "lasciare libertà ai singoli"
           }
         },
-        "Number": 4
+        "Number": 4,
+        "PageId": 4
       },
       "18": {
         "_answerCorrect": "A",
@@ -3187,7 +3255,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 18
+        "Number": 18,
+        "PageId": 18
       },
       "19": {
         "_answerCorrect": "A",
@@ -3229,7 +3298,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 19
+        "Number": 19,
+        "PageId": 19
       },
       "20": {
         "_answerCorrect": "A",
@@ -3275,7 +3345,8 @@
             "_textAnswer": "Cono, cuneo, sfera, cilindro"
           }
         },
-        "Number": 20
+        "Number": 20,
+        "PageId": 20
       },
       "5": {
         "_answerCorrect": "A",
@@ -3317,7 +3388,8 @@
             "_textAnswer": "Il fante di cuori"
           }
         },
-        "Number": 5
+        "Number": 5,
+        "PageId": 5
       },
       "23": {
         "_answerCorrect": "A",
@@ -3371,7 +3443,8 @@
             "_textAnswer": "Figura 1"
           }
         },
-        "Number": 23
+        "Number": 23,
+        "PageId": 23
       },
       "24": {
         "_answerCorrect": "A",
@@ -3413,7 +3486,8 @@
             "_textAnswer": "1) biblioteca; 2) sala da concerto; 3) impianto sportivo; 4) chiesa"
           }
         },
-        "Number": 24
+        "Number": 24,
+        "PageId": 24
       },
       "25": {
         "_answerCorrect": "A",
@@ -3459,7 +3533,8 @@
             "_textAnswer": " 2 π=a"
           }
         },
-        "Number": 25
+        "Number": 25,
+        "PageId": 25
       },
       "26": {
         "_answerCorrect": "A",
@@ -3525,7 +3600,8 @@
             "_textAnswer": " 432yx =−"
           }
         },
-        "Number": 26
+        "Number": 26,
+        "PageId": 26
       },
       "6": {
         "_answerCorrect": "A",
@@ -3575,7 +3651,8 @@
             "_textAnswer": "25"
           }
         },
-        "Number": 6
+        "Number": 6,
+        "PageId": 6
       },
       "28": {
         "_answerCorrect": "A",
@@ -3623,7 +3700,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 28
+        "Number": 28,
+        "PageId": 28
       },
       "29": {
         "_answerCorrect": "A",
@@ -3677,7 +3755,8 @@
             "_textAnswer": "x = 2"
           }
         },
-        "Number": 29
+        "Number": 29,
+        "PageId": 7
       },
       "30": {
         "_answerCorrect": "A",
@@ -3735,7 +3814,8 @@
             "_textAnswer": "chi non gioca a calcio non fa nuoto"
           }
         },
-        "Number": 30
+        "Number": 30,
+        "PageId": 7
       },
       "31": {
         "_answerCorrect": "A",
@@ -3789,7 +3869,8 @@
             "_textAnswer": "Se I non è chiuso oppure non è limitato, allora I è compatto"
           }
         },
-        "Number": 31
+        "Number": 31,
+        "PageId": 7
       },
       "37": {
         "_answerCorrect": "A",
@@ -3831,7 +3912,8 @@
             "_textAnswer": "un pittore gotico lombardo"
           }
         },
-        "Number": 37
+        "Number": 37,
+        "PageId": 9
       },
       "38": {
         "_answerCorrect": "A",
@@ -3873,7 +3955,8 @@
             "_textAnswer": "la Rotonda"
           }
         },
-        "Number": 38
+        "Number": 38,
+        "PageId": 9
       },
       "40": {
         "_answerCorrect": "A",
@@ -3915,7 +3998,8 @@
             "_textAnswer": "Paul Klee"
           }
         },
-        "Number": 40
+        "Number": 40,
+        "PageId": 10
       },
       "41": {
         "_answerCorrect": "A",
@@ -3957,7 +4041,8 @@
             "_textAnswer": "un elemento di copertura dei templi"
           }
         },
-        "Number": 41
+        "Number": 41,
+        "PageId": 10
       },
       "42": {
         "_answerCorrect": "A",
@@ -3999,7 +4084,8 @@
             "_textAnswer": "Paolo Uccello"
           }
         },
-        "Number": 42
+        "Number": 42,
+        "PageId": 10
       },
       "10": {
         "_answerCorrect": "A",
@@ -4041,7 +4127,8 @@
             "_textAnswer": "Francesco Borromini"
           }
         },
-        "Number": 10
+        "Number": 10,
+        "PageId": 10
       },
       "44": {
         "_answerCorrect": "A",
@@ -4103,7 +4190,8 @@
             "_textAnswer": "d - b - c - e - a"
           }
         },
-        "Number": 44
+        "Number": 44,
+        "PageId": 11
       },
       "45": {
         "_answerCorrect": "A",
@@ -4169,7 +4257,8 @@
             "_textAnswer": "a1 - b5 - c3 - d4 - e2"
           }
         },
-        "Number": 45
+        "Number": 45,
+        "PageId": 11
       },
       "46": {
         "_answerCorrect": "A",
@@ -4231,7 +4320,8 @@
             "_textAnswer": "b – c – a – e – d"
           }
         },
-        "Number": 46
+        "Number": 46,
+        "PageId": 11
       },
       "47": {
         "_answerCorrect": "A",
@@ -4273,7 +4363,8 @@
             "_textAnswer": "Ho Chi Minh"
           }
         },
-        "Number": 47
+        "Number": 47,
+        "PageId": 11
       },
       "49": {
         "_answerCorrect": "A",
@@ -4315,7 +4406,8 @@
             "_textAnswer": "Bari, Genova, Livorno, Venezia"
           }
         },
-        "Number": 49
+        "Number": 49,
+        "PageId": 12
       },
       "50": {
         "_answerCorrect": "A",
@@ -4357,7 +4449,8 @@
             "_textAnswer": "476 d.C."
           }
         },
-        "Number": 50
+        "Number": 50,
+        "PageId": 12
       },
       "54": {
         "_answerCorrect": "A",
@@ -4411,7 +4504,8 @@
             "_textAnswer": "Ellisse – cerchio"
           }
         },
-        "Number": 54
+        "Number": 54,
+        "PageId": 13
       },
       "56": {
         "_answerCorrect": "A",
@@ -4457,7 +4551,8 @@
             "_textAnswer": "Figura 1"
           }
         },
-        "Number": 56
+        "Number": 56,
+        "PageId": 14
       },
       "14": {
         "_answerCorrect": "A",
@@ -4499,7 +4594,8 @@
             "_textAnswer": "4, 2, 6"
           }
         },
-        "Number": 14
+        "Number": 14,
+        "PageId": 14
       },
       "17": {
         "_answerCorrect": "A",
@@ -4545,7 +4641,8 @@
             "_textAnswer": "Figura 1"
           }
         },
-        "Number": 17
+        "Number": 17,
+        "PageId": 17
       },
       "21": {
         "_answerCorrect": "A",
@@ -4587,7 +4684,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 21
+        "Number": 21,
+        "PageId": 21
       },
       "22": {
         "_answerCorrect": "A",
@@ -4633,7 +4731,8 @@
             "_textAnswer": "Direzione A – antimeridiana"
           }
         },
-        "Number": 22
+        "Number": 22,
+        "PageId": 22
       },
       "66": {
         "_answerCorrect": "A",
@@ -4679,7 +4778,8 @@
             "_textAnswer": "1) metà pomeriggio, 2) tramonto, 3) alba, 4) metà mattino"
           }
         },
-        "Number": 66
+        "Number": 66,
+        "PageId": 23
       },
       "71": {
         "_answerCorrect": "A",
@@ -4729,7 +4829,8 @@
             "_textAnswer": "– 6/7"
           }
         },
-        "Number": 71
+        "Number": 71,
+        "PageId": 26
       },
       "72": {
         "_answerCorrect": "A",
@@ -4787,7 +4888,8 @@
             "_textAnswer": "3 minuti esatti"
           }
         },
-        "Number": 72
+        "Number": 72,
+        "PageId": 26
       },
       "73": {
         "_answerCorrect": "A",
@@ -4849,7 +4951,8 @@
             "_textAnswer": "108/25"
           }
         },
-        "Number": 73
+        "Number": 73,
+        "PageId": 26
       },
       "75": {
         "_answerCorrect": "A",
@@ -4895,7 +4998,8 @@
             "_textAnswer": "418 m 2"
           }
         },
-        "Number": 75
+        "Number": 75,
+        "PageId": 27
       },
       "76": {
         "_answerCorrect": "A",
@@ -4937,7 +5041,8 @@
             "_textAnswer": "11/9 2 xx≤ è verificata per i valori dalla variabile reale x . . ."
           }
         },
-        "Number": 76
+        "Number": 76,
+        "PageId": 27
       },
       "27": {
         "_answerCorrect": "A",
@@ -4979,7 +5084,8 @@
             "_textAnswer": "3p"
           }
         },
-        "Number": 27
+        "Number": 27,
+        "PageId": 27
       }
     }
   },
@@ -5026,13 +5132,15 @@
             "_textAnswer": "Kuwait"
           }
         },
-        "Number": 1
+        "Number": 1,
+        "PageId": 1
       },
       "2": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 2
+        "Number": 2,
+        "PageId": 2
       },
       "3": {
         "_answerCorrect": "A",
@@ -5074,13 +5182,15 @@
             "_textAnswer": "presenta caratteri ereditati dal contesto"
           }
         },
-        "Number": 3
+        "Number": 3,
+        "PageId": 3
       },
       "4": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 4
+        "Number": 4,
+        "PageId": 4
       },
       "5": {
         "_answerCorrect": "A",
@@ -5146,13 +5256,15 @@
             "_textAnswer": ""
           }
         },
-        "Number": 5
+        "Number": 5,
+        "PageId": 5
       },
       "6": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 6
+        "Number": 6,
+        "PageId": 6
       },
       "22": {
         "_answerCorrect": "A",
@@ -5198,7 +5310,8 @@
             "_textAnswer": "a 1:20 b 1:100"
           }
         },
-        "Number": 22
+        "Number": 22,
+        "PageId": 22
       },
       "23": {
         "_answerCorrect": "A",
@@ -5244,7 +5357,8 @@
             "_textAnswer": "2140  metri s.l.m."
           }
         },
-        "Number": 23
+        "Number": 23,
+        "PageId": 23
       },
       "7": {
         "_answerCorrect": "A",
@@ -5286,7 +5400,8 @@
             "_textAnswer": "si giovò di un compatto appoggio internazionale"
           }
         },
-        "Number": 7
+        "Number": 7,
+        "PageId": 7
       },
       "25": {
         "_answerCorrect": "A",
@@ -5336,7 +5451,8 @@
             "_textAnswer": "24,5"
           }
         },
-        "Number": 25
+        "Number": 25,
+        "PageId": 25
       },
       "26": {
         "_answerCorrect": "A",
@@ -5402,13 +5518,15 @@
             "_textAnswer": "p = 4 N    q = 3 N"
           }
         },
-        "Number": 26
+        "Number": 26,
+        "PageId": 26
       },
       "27": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 27
+        "Number": 27,
+        "PageId": 27
       },
       "28": {
         "_answerCorrect": "A",
@@ -5454,7 +5572,8 @@
             "_textAnswer": "se non splende il sole e non nevica, la signora Pazzerelli porta con sé ombrello ed occhiali da sole uscendo di casa"
           }
         },
-        "Number": 28
+        "Number": 28,
+        "PageId": 8
       },
       "8": {
         "_answerCorrect": "A",
@@ -5508,7 +5627,8 @@
             "_textAnswer": "24"
           }
         },
-        "Number": 8
+        "Number": 8,
+        "PageId": 8
       },
       "30": {
         "_answerCorrect": "A",
@@ -5554,7 +5674,8 @@
             "_textAnswer": "esiste una macchina a benzina che non consuma più di ogni macchina diesel"
           }
         },
-        "Number": 30
+        "Number": 30,
+        "PageId": 9
       },
       "31": {
         "_answerCorrect": "A",
@@ -5608,7 +5729,8 @@
             "_textAnswer": "39"
           }
         },
-        "Number": 31
+        "Number": 31,
+        "PageId": 9
       },
       "32": {
         "_answerCorrect": "A",
@@ -5654,7 +5776,8 @@
             "_textAnswer": "3"
           }
         },
-        "Number": 32
+        "Number": 32,
+        "PageId": 9
       },
       "33": {
         "_answerCorrect": "A",
@@ -5704,7 +5827,8 @@
             "_textAnswer": "ogni volta che non ha giocato a tombola con Pierino, ha vinto Carletto"
           }
         },
-        "Number": 33
+        "Number": 33,
+        "PageId": 9
       },
       "9": {
         "_answerCorrect": "A",
@@ -5754,7 +5878,8 @@
             "_textAnswer": "c'è almeno una città dove c'è almeno una casa in cui almeno un abitante è bruno"
           }
         },
-        "Number": 9
+        "Number": 9,
+        "PageId": 9
       },
       "35": {
         "_answerCorrect": "A",
@@ -5816,7 +5941,8 @@
             "_textAnswer": "Rocco è più intelligente ma meno ricco di Silvio"
           }
         },
-        "Number": 35
+        "Number": 35,
+        "PageId": 10
       },
       "36": {
         "_answerCorrect": "A",
@@ -5878,7 +6004,8 @@
             "_textAnswer": "20"
           }
         },
-        "Number": 36
+        "Number": 36,
+        "PageId": 10
       },
       "10": {
         "_answerCorrect": "A",
@@ -5932,7 +6059,8 @@
             "_textAnswer": "c'è almeno uno studente della quinta A che non ha gli occhiali e non tifa Bologna"
           }
         },
-        "Number": 10
+        "Number": 10,
+        "PageId": 10
       },
       "38": {
         "_answerCorrect": "A",
@@ -5978,7 +6106,8 @@
             "_textAnswer": "La Figura 5"
           }
         },
-        "Number": 38
+        "Number": 38,
+        "PageId": 11
       },
       "39": {
         "_answerCorrect": "A",
@@ -6024,7 +6153,8 @@
             "_textAnswer": "se neppure Carmela ha superato il test, Benedetto non ha superato il test"
           }
         },
-        "Number": 39
+        "Number": 39,
+        "PageId": 11
       },
       "40": {
         "_answerCorrect": "A",
@@ -6066,7 +6196,8 @@
             "_textAnswer": "Nessun L è P. Ogni T è P. Allora nessun L è T Test di Storia"
           }
         },
-        "Number": 40
+        "Number": 40,
+        "PageId": 11
       },
       "11": {
         "_answerCorrect": "A",
@@ -6108,7 +6239,8 @@
             "_textAnswer": "York – Stuart"
           }
         },
-        "Number": 11
+        "Number": 11,
+        "PageId": 11
       },
       "42": {
         "_answerCorrect": "A",
@@ -6150,7 +6282,8 @@
             "_textAnswer": "Carlo Magno"
           }
         },
-        "Number": 42
+        "Number": 42,
+        "PageId": 12
       },
       "43": {
         "_answerCorrect": "A",
@@ -6192,7 +6325,8 @@
             "_textAnswer": "Stefano"
           }
         },
-        "Number": 43
+        "Number": 43,
+        "PageId": 12
       },
       "44": {
         "_answerCorrect": "A",
@@ -6234,7 +6368,8 @@
             "_textAnswer": "1745"
           }
         },
-        "Number": 44
+        "Number": 44,
+        "PageId": 12
       },
       "45": {
         "_answerCorrect": "A",
@@ -6276,7 +6411,8 @@
             "_textAnswer": "durante il quale avviene la disgregazione dei regni ellenistici"
           }
         },
-        "Number": 45
+        "Number": 45,
+        "PageId": 12
       },
       "46": {
         "_answerCorrect": "A",
@@ -6338,7 +6474,8 @@
             "_textAnswer": "5; 1; 2; 3; 4"
           }
         },
-        "Number": 46
+        "Number": 46,
+        "PageId": 12
       },
       "12": {
         "_answerCorrect": "A",
@@ -6380,7 +6517,8 @@
             "_textAnswer": "Roma, nei Musei Vaticani"
           }
         },
-        "Number": 12
+        "Number": 12,
+        "PageId": 12
       },
       "48": {
         "_answerCorrect": "A",
@@ -6422,7 +6560,8 @@
             "_textAnswer": "Donato di Pascuccio d’Antonio detto il Bramante"
           }
         },
-        "Number": 48
+        "Number": 48,
+        "PageId": 13
       },
       "49": {
         "_answerCorrect": "A",
@@ -6468,7 +6607,8 @@
             "_textAnswer": "caratterizzato dall’influenza politica greca su tutto il Mediterraneo"
           }
         },
-        "Number": 49
+        "Number": 49,
+        "PageId": 13
       },
       "50": {
         "_answerCorrect": "A",
@@ -6510,7 +6650,8 @@
             "_textAnswer": "Acropoli"
           }
         },
-        "Number": 50
+        "Number": 50,
+        "PageId": 13
       },
       "51": {
         "_answerCorrect": "A",
@@ -6552,7 +6693,8 @@
             "_textAnswer": "la cattedra del vescovo posta a fianco dell’ambone"
           }
         },
-        "Number": 51
+        "Number": 51,
+        "PageId": 13
       },
       "52": {
         "_answerCorrect": "A",
@@ -6594,7 +6736,8 @@
             "_textAnswer": "i pittori di corte attivi alla fine del XV secolo a Milano e Urbino"
           }
         },
-        "Number": 52
+        "Number": 52,
+        "PageId": 13
       },
       "13": {
         "_answerCorrect": "A",
@@ -6636,7 +6779,8 @@
             "_textAnswer": "Costruttivismo"
           }
         },
-        "Number": 13
+        "Number": 13,
+        "PageId": 13
       },
       "54": {
         "_answerCorrect": "A",
@@ -6678,7 +6822,8 @@
             "_textAnswer": "Pietro da Cortona Test di Disegno e Rappresentazione"
           }
         },
-        "Number": 54
+        "Number": 54,
+        "PageId": 14
       },
       "14": {
         "_answerCorrect": "A",
@@ -6724,7 +6869,8 @@
             "_textAnswer": "nessuno"
           }
         },
-        "Number": 14
+        "Number": 14,
+        "PageId": 14
       },
       "56": {
         "_answerCorrect": "A",
@@ -6774,7 +6920,8 @@
             "_textAnswer": "Ottengo un paraboloide di rotazione"
           }
         },
-        "Number": 56
+        "Number": 56,
+        "PageId": 15
       },
       "57": {
         "_answerCorrect": "A",
@@ -6816,7 +6963,8 @@
             "_textAnswer": "l’intersezione può essere una parabola"
           }
         },
-        "Number": 57
+        "Number": 57,
+        "PageId": 15
       },
       "15": {
         "_answerCorrect": "A",
@@ -6858,7 +7006,8 @@
             "_textAnswer": "Di un prisma a base triangolare"
           }
         },
-        "Number": 15
+        "Number": 15,
+        "PageId": 15
       },
       "59": {
         "_answerCorrect": "A",
@@ -6904,7 +7053,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 59
+        "Number": 59,
+        "PageId": 16
       },
       "16": {
         "_answerCorrect": "A",
@@ -6946,7 +7096,8 @@
             "_textAnswer": "Al tramonto"
           }
         },
-        "Number": 16
+        "Number": 16,
+        "PageId": 16
       },
       "17": {
         "_answerCorrect": "A",
@@ -6988,7 +7139,8 @@
             "_textAnswer": "una assonometria dimetrica obliqua"
           }
         },
-        "Number": 17
+        "Number": 17,
+        "PageId": 17
       },
       "18": {
         "_answerCorrect": "A",
@@ -7030,7 +7182,8 @@
             "_textAnswer": "Spaccato assonometrico"
           }
         },
-        "Number": 18
+        "Number": 18,
+        "PageId": 18
       },
       "19": {
         "_answerCorrect": "A",
@@ -7076,7 +7229,8 @@
             "_textAnswer": "c, a, b"
           }
         },
-        "Number": 19
+        "Number": 19,
+        "PageId": 19
       },
       "20": {
         "_answerCorrect": "A",
@@ -7122,7 +7276,8 @@
             "_textAnswer": "a-2 ;  b-5 ;  c-3 ;  d-1 ;  e-4 ;  f-6"
           }
         },
-        "Number": 20
+        "Number": 20,
+        "PageId": 20
       },
       "21": {
         "_answerCorrect": "A",
@@ -7168,7 +7323,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 21
+        "Number": 21,
+        "PageId": 21
       },
       "67": {
         "_answerCorrect": "A",
@@ -7214,7 +7370,8 @@
             "_textAnswer": "Nessuna delle serie di misure rappresenta adeguatamente le dimensioni"
           }
         },
-        "Number": 67
+        "Number": 67,
+        "PageId": 23
       },
       "69": {
         "_answerCorrect": "A",
@@ -7264,7 +7421,8 @@
             "_textAnswer": "()1025=+a"
           }
         },
-        "Number": 69
+        "Number": 69,
+        "PageId": 24
       },
       "70": {
         "_answerCorrect": "A",
@@ -7310,7 +7468,8 @@
             "_textAnswer": "5y + 2x = −5"
           }
         },
-        "Number": 70
+        "Number": 70,
+        "PageId": 24
       },
       "24": {
         "_answerCorrect": "A",
@@ -7360,7 +7519,8 @@
             "_textAnswer": "32"
           }
         },
-        "Number": 24
+        "Number": 24,
+        "PageId": 24
       },
       "72": {
         "_answerCorrect": "A",
@@ -7406,7 +7566,8 @@
             "_textAnswer": "1,≤≤xxy"
           }
         },
-        "Number": 72
+        "Number": 72,
+        "PageId": 25
       },
       "73": {
         "_answerCorrect": "A",
@@ -7456,7 +7617,8 @@
             "_textAnswer": "()()xfxg−="
           }
         },
-        "Number": 73
+        "Number": 73,
+        "PageId": 25
       },
       "75": {
         "_answerCorrect": "A",
@@ -7502,7 +7664,8 @@
             "_textAnswer": "ammette solo soluzioni intere"
           }
         },
-        "Number": 75
+        "Number": 75,
+        "PageId": 26
       },
       "76": {
         "_answerCorrect": "A",
@@ -7556,7 +7719,8 @@
             "_textAnswer": "aumenterebbe di 2 euro"
           }
         },
-        "Number": 76
+        "Number": 76,
+        "PageId": 26
       },
       "77": {
         "_answerCorrect": "A",
@@ -7606,7 +7770,8 @@
             "_textAnswer": "il triangolo rettangolo è anche isoscele"
           }
         },
-        "Number": 77
+        "Number": 77,
+        "PageId": 26
       }
     }
   },
@@ -7653,7 +7818,8 @@
             "_textAnswer": "oggettiva"
           }
         },
-        "Number": 1
+        "Number": 1,
+        "PageId": 1
       },
       "2": {
         "_answerCorrect": "A",
@@ -7855,13 +8021,15 @@
             "_textAnswer": "il cavallo poliploide non riusciva a reggersi sulle proprie zampe perché il suo corpo aveva dimensione eccessive rispetto a quelle delle zampe"
           }
         },
-        "Number": 2
+        "Number": 2,
+        "PageId": 2
       },
       "3": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 3
+        "Number": 3,
+        "PageId": 3
       },
       "4": {
         "_answerCorrect": "A",
@@ -7903,7 +8071,8 @@
             "_textAnswer": "non era indipendente"
           }
         },
-        "Number": 4
+        "Number": 4,
+        "PageId": 4
       },
       "12": {
         "_answerCorrect": "A",
@@ -7953,7 +8122,8 @@
             "_textAnswer": "Parabola"
           }
         },
-        "Number": 12
+        "Number": 12,
+        "PageId": 12
       },
       "13": {
         "_answerCorrect": "A",
@@ -7995,7 +8165,8 @@
             "_textAnswer": "Ad un tronco di cono a base esagonale regolare"
           }
         },
-        "Number": 13
+        "Number": 13,
+        "PageId": 13
       },
       "14": {
         "_answerCorrect": "A",
@@ -8037,7 +8208,8 @@
             "_textAnswer": "Arco ribassato"
           }
         },
-        "Number": 14
+        "Number": 14,
+        "PageId": 14
       },
       "5": {
         "_answerCorrect": "A",
@@ -8133,7 +8305,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 5
+        "Number": 5,
+        "PageId": 5
       },
       "18": {
         "_answerCorrect": "A",
@@ -8179,7 +8352,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 18
+        "Number": 18,
+        "PageId": 18
       },
       "19": {
         "_answerCorrect": "A",
@@ -8221,7 +8395,8 @@
             "_textAnswer": "Scala 1:25"
           }
         },
-        "Number": 19
+        "Number": 19,
+        "PageId": 19
       },
       "20": {
         "_answerCorrect": "A",
@@ -8267,7 +8442,8 @@
             "_textAnswer": "b-1; a-2; c-4; d-3"
           }
         },
-        "Number": 20
+        "Number": 20,
+        "PageId": 20
       },
       "21": {
         "_answerCorrect": "A",
@@ -8317,7 +8493,8 @@
             "_textAnswer": " 5>>x >>"
           }
         },
-        "Number": 21
+        "Number": 21,
+        "PageId": 21
       },
       "22": {
         "_answerCorrect": "A",
@@ -8363,7 +8540,8 @@
             "_textAnswer": "2/5"
           }
         },
-        "Number": 22
+        "Number": 22,
+        "PageId": 22
       },
       "6": {
         "_answerCorrect": "A",
@@ -8413,7 +8591,8 @@
             "_textAnswer": "Anna"
           }
         },
-        "Number": 6
+        "Number": 6,
+        "PageId": 6
       },
       "24": {
         "_answerCorrect": "A",
@@ -8515,7 +8694,8 @@
             "_textAnswer": "La parete in calcestruzzo trasmette in un’ora la quantità di calorie che la parete in mattone trasmette in mezz’ora ********** FINE DELLE DOMANDE ********** LA RISPOSTA GIUSTA È SEMPRE QUELLA ALLA LETTERA  A"
           }
         },
-        "Number": 24
+        "Number": 24,
+        "PageId": 24
       },
       "25": {
         "_answerCorrect": "A",
@@ -8569,7 +8749,8 @@
             "_textAnswer": "esiste una sola mossa che permette al primo giocatore di garantirsi sempre la vittoria"
           }
         },
-        "Number": 25
+        "Number": 25,
+        "PageId": 7
       },
       "26": {
         "_answerCorrect": "A",
@@ -8615,7 +8796,8 @@
             "_textAnswer": "Rossi può arrivare primo anche se non parte in pole position"
           }
         },
-        "Number": 26
+        "Number": 26,
+        "PageId": 7
       },
       "27": {
         "_answerCorrect": "A",
@@ -8661,7 +8843,8 @@
             "_textAnswer": "40 minuti"
           }
         },
-        "Number": 27
+        "Number": 27,
+        "PageId": 7
       },
       "7": {
         "_answerCorrect": "A",
@@ -8711,7 +8894,8 @@
             "_textAnswer": "ogni  automobile che ha gomme chiodate e vetri oscurati è rossa"
           }
         },
-        "Number": 7
+        "Number": 7,
+        "PageId": 7
       },
       "29": {
         "_answerCorrect": "A",
@@ -8757,7 +8941,8 @@
             "_textAnswer": "ha risolto due esercizi, ma con errori"
           }
         },
-        "Number": 29
+        "Number": 29,
+        "PageId": 8
       },
       "30": {
         "_answerCorrect": "A",
@@ -8815,7 +9000,8 @@
             "_textAnswer": "i Giulivi hanno perso tra 10 e 15 volte"
           }
         },
-        "Number": 30
+        "Number": 30,
+        "PageId": 8
       },
       "31": {
         "_answerCorrect": "A",
@@ -8881,7 +9067,8 @@
             "_textAnswer": "x = 32"
           }
         },
-        "Number": 31
+        "Number": 31,
+        "PageId": 8
       },
       "8": {
         "_answerCorrect": "A",
@@ -8947,7 +9134,8 @@
             "_textAnswer": "All'alba del 7 maggio 2010"
           }
         },
-        "Number": 8
+        "Number": 8,
+        "PageId": 8
       },
       "33": {
         "_answerCorrect": "A",
@@ -8989,7 +9177,8 @@
             "_textAnswer": "Ravenna"
           }
         },
-        "Number": 33
+        "Number": 33,
+        "PageId": 9
       },
       "34": {
         "_answerCorrect": "A",
@@ -9031,7 +9220,8 @@
             "_textAnswer": "Il “Sacco” di Roma"
           }
         },
-        "Number": 34
+        "Number": 34,
+        "PageId": 9
       },
       "35": {
         "_answerCorrect": "A",
@@ -9073,7 +9263,8 @@
             "_textAnswer": "Giovanni Giolitti"
           }
         },
-        "Number": 35
+        "Number": 35,
+        "PageId": 9
       },
       "36": {
         "_answerCorrect": "A",
@@ -9115,7 +9306,8 @@
             "_textAnswer": "al fatto che l’uomo utilizza il fuoco per alcune attività essenziali della vita quotidiana"
           }
         },
-        "Number": 36
+        "Number": 36,
+        "PageId": 9
       },
       "37": {
         "_answerCorrect": "A",
@@ -9157,7 +9349,8 @@
             "_textAnswer": "l’ereditarietà dei feudi maggiori"
           }
         },
-        "Number": 37
+        "Number": 37,
+        "PageId": 9
       },
       "9": {
         "_answerCorrect": "A",
@@ -9199,7 +9392,8 @@
             "_textAnswer": "il Partito Socialista Italiano"
           }
         },
-        "Number": 9
+        "Number": 9,
+        "PageId": 9
       },
       "39": {
         "_answerCorrect": "A",
@@ -9253,7 +9447,8 @@
             "_textAnswer": "4; 3; 5; 1; 2"
           }
         },
-        "Number": 39
+        "Number": 39,
+        "PageId": 10
       },
       "40": {
         "_answerCorrect": "A",
@@ -9295,7 +9490,8 @@
             "_textAnswer": "il trattato di Leoben"
           }
         },
-        "Number": 40
+        "Number": 40,
+        "PageId": 10
       },
       "41": {
         "_answerCorrect": "A",
@@ -9337,7 +9533,8 @@
             "_textAnswer": "Apollodoro di Damasco – Traiano"
           }
         },
-        "Number": 41
+        "Number": 41,
+        "PageId": 10
       },
       "42": {
         "_answerCorrect": "A",
@@ -9379,7 +9576,8 @@
             "_textAnswer": "Michelangelo Buonarroti"
           }
         },
-        "Number": 42
+        "Number": 42,
+        "PageId": 10
       },
       "43": {
         "_answerCorrect": "A",
@@ -9421,7 +9619,8 @@
             "_textAnswer": "costola"
           }
         },
-        "Number": 43
+        "Number": 43,
+        "PageId": 10
       },
       "44": {
         "_answerCorrect": "A",
@@ -9463,7 +9662,8 @@
             "_textAnswer": "Vocazione di San Matteo; Davide e Golia; Lo sposalizio della Vergine"
           }
         },
-        "Number": 44
+        "Number": 44,
+        "PageId": 10
       },
       "10": {
         "_answerCorrect": "A",
@@ -9505,7 +9705,8 @@
             "_textAnswer": "Officine Fagus; Casa Sommerfeld; Quartiere Siemensstadt"
           }
         },
-        "Number": 10
+        "Number": 10,
+        "PageId": 10
       },
       "46": {
         "_answerCorrect": "A",
@@ -9547,7 +9748,8 @@
             "_textAnswer": "Laocoonte; Alba; Ebe; Venere; Medusa"
           }
         },
-        "Number": 46
+        "Number": 46,
+        "PageId": 11
       },
       "47": {
         "_answerCorrect": "A",
@@ -9593,7 +9795,8 @@
             "_textAnswer": "Keith Haring"
           }
         },
-        "Number": 47
+        "Number": 47,
+        "PageId": 11
       },
       "11": {
         "_answerCorrect": "A",
@@ -9635,7 +9838,8 @@
             "_textAnswer": "Chiesa di Santa Maria Novella a Firenze"
           }
         },
-        "Number": 11
+        "Number": 11,
+        "PageId": 11
       },
       "49": {
         "_answerCorrect": "A",
@@ -9681,7 +9885,8 @@
             "_textAnswer": "con rastremature"
           }
         },
-        "Number": 49
+        "Number": 49,
+        "PageId": 12
       },
       "50": {
         "_answerCorrect": "A",
@@ -9723,7 +9928,8 @@
             "_textAnswer": "Stanza di Costantino"
           }
         },
-        "Number": 50
+        "Number": 50,
+        "PageId": 12
       },
       "51": {
         "_answerCorrect": "A",
@@ -9769,7 +9975,8 @@
             "_textAnswer": "Mausoleo Test di Disegno e Rappresentazione"
           }
         },
-        "Number": 51
+        "Number": 51,
+        "PageId": 12
       },
       "53": {
         "_answerCorrect": "A",
@@ -9815,7 +10022,8 @@
             "_textAnswer": "Sull’allineamento dei punti A - B"
           }
         },
-        "Number": 53
+        "Number": 53,
+        "PageId": 13
       },
       "55": {
         "_answerCorrect": "A",
@@ -9861,7 +10069,8 @@
             "_textAnswer": "Punto E"
           }
         },
-        "Number": 55
+        "Number": 55,
+        "PageId": 14
       },
       "15": {
         "_answerCorrect": "A",
@@ -9903,7 +10112,8 @@
             "_textAnswer": "Abitazione"
           }
         },
-        "Number": 15
+        "Number": 15,
+        "PageId": 15
       },
       "58": {
         "_answerCorrect": "A",
@@ -9945,7 +10155,8 @@
             "_textAnswer": "Vista Sud"
           }
         },
-        "Number": 58
+        "Number": 58,
+        "PageId": 16
       },
       "16": {
         "_answerCorrect": "A",
@@ -9987,7 +10198,8 @@
             "_textAnswer": "A-lato Ovest, B-lato Est,  C-lato Nord,  D-lato Sud"
           }
         },
-        "Number": 16
+        "Number": 16,
+        "PageId": 16
       },
       "17": {
         "_answerCorrect": "A",
@@ -10029,7 +10241,8 @@
             "_textAnswer": "Una prospettiva a piano inclinato"
           }
         },
-        "Number": 17
+        "Number": 17,
+        "PageId": 17
       },
       "61": {
         "_answerCorrect": "A",
@@ -10071,7 +10284,8 @@
             "_textAnswer": "uno spaccato prospettico"
           }
         },
-        "Number": 61
+        "Number": 61,
+        "PageId": 18
       },
       "63": {
         "_answerCorrect": "A",
@@ -10113,7 +10327,8 @@
             "_textAnswer": "La superficie sferica è una superficie di rotazione"
           }
         },
-        "Number": 63
+        "Number": 63,
+        "PageId": 19
       },
       "65": {
         "_answerCorrect": "A",
@@ -10155,7 +10370,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 65
+        "Number": 65,
+        "PageId": 20
       },
       "67": {
         "_answerCorrect": "A",
@@ -10197,7 +10413,8 @@
             "_textAnswer": "0 Test di Fisica e Matematica 23"
           }
         },
-        "Number": 67
+        "Number": 67,
+        "PageId": 21
       },
       "68": {
         "_answerCorrect": "A",
@@ -10247,7 +10464,8 @@
             "_textAnswer": " 2−−x −−"
           }
         },
-        "Number": 68
+        "Number": 68,
+        "PageId": 21
       },
       "70": {
         "_answerCorrect": "A",
@@ -10301,7 +10519,8 @@
             "_textAnswer": "T = 12 S 22−− −−"
           }
         },
-        "Number": 70
+        "Number": 70,
+        "PageId": 22
       },
       "71": {
         "_answerCorrect": "A",
@@ -10351,7 +10570,8 @@
             "_textAnswer": "Solo per i valori di x minori di 2 10"
           }
         },
-        "Number": 71
+        "Number": 71,
+        "PageId": 22
       },
       "72": {
         "_answerCorrect": "A",
@@ -10397,7 +10617,8 @@
             "_textAnswer": " 3 342−−−− 3zyx −−−−"
           }
         },
-        "Number": 72
+        "Number": 72,
+        "PageId": 22
       },
       "73": {
         "_answerCorrect": "A",
@@ -10451,7 +10672,8 @@
             "_textAnswer": " 4 45 3x zy −− −−"
           }
         },
-        "Number": 73
+        "Number": 73,
+        "PageId": 22
       },
       "75": {
         "_answerCorrect": "A",
@@ -10501,7 +10723,8 @@
             "_textAnswer": "Il raggio della circonferenza è di 10cm"
           }
         },
-        "Number": 75
+        "Number": 75,
+        "PageId": 23
       },
       "76": {
         "_answerCorrect": "A",
@@ -10547,7 +10770,8 @@
             "_textAnswer": " 5,1"
           }
         },
-        "Number": 76
+        "Number": 76,
+        "PageId": 23
       },
       "77": {
         "_answerCorrect": "A",
@@ -10605,7 +10829,8 @@
             "_textAnswer": "0,80 m"
           }
         },
-        "Number": 77
+        "Number": 77,
+        "PageId": 23
       },
       "78": {
         "_answerCorrect": "A",
@@ -10663,7 +10888,8 @@
             "_textAnswer": "La forza esercitata su K è uguale al peso dell’asta"
           }
         },
-        "Number": 78
+        "Number": 78,
+        "PageId": 23
       },
       "23": {
         "_answerCorrect": "A",
@@ -10713,7 +10939,8 @@
             "_textAnswer": "5 m/s 2"
           }
         },
-        "Number": 23
+        "Number": 23,
+        "PageId": 23
       }
     }
   },
@@ -10760,7 +10987,8 @@
             "_textAnswer": "1956"
           }
         },
-        "Number": 1
+        "Number": 1,
+        "PageId": 1
       },
       "2": {
         "_answerCorrect": "A",
@@ -10970,7 +11198,8 @@
             "_textAnswer": "Perché sono quelli su cui agiscono di più i tratti tipici della scuola di appartenenza"
           }
         },
-        "Number": 2
+        "Number": 2,
+        "PageId": 2
       },
       "3": {
         "_answerCorrect": "A",
@@ -11012,7 +11241,8 @@
             "_textAnswer": "Sono libri di psicanalisi medica più che di storia dell’arte Brano II Questo brano è seguito da alcuni quesiti riguardanti il suo contenuto. Per ciascun quesito, dovete scegliere, tra le alternative proposte, quella che ritenete corretta in base soltanto a ciò che risulta esplicito o implicito nel brano, cioè solo in base a quanto si ricava dal brano e non in base a quanto eventualmente sapete già sull’argomento. L’eliminazione dei mobili Cari amici, vi voglio svelare un segreto: non esistono mobili moderni! Oppure, per esser più precisi: sono moderni soltanto quei mobili che si possono spostare. Tutti i mobili che sono fissati al muro, che quindi non si possono muovere e che, come già appare chiaro dal loro nome, non sono quindi veri e propri mobili: cassapanche e armadi, cristalliere e credenze, oggi praticamente non esistono più. Ma nessuno lo sapeva. E da ciò sono derivati gli errori. Ci si diceva che in ogni epoca gli armadi e le credenze erano stati concepiti in modo moderno, ideati secondo lo spirito del loro tempo e che perciò si aveva il compito di creare anche oggi queste cose secondo lo spirito del nostro tempo. Questo era un ragionamento sbagliato. Perché, dato che oggi gli armadi non esistono più, è impossibile che ve ne siano di moderni. Questi mobili inamovibili sono destinati a custodire. Nelle credenze si conservavano le porcellane, negli armadi i vestiti. Questo genere di mobili adibiti alla custodia erano un simbolo del grado di agiatezza raggiunto. La ricchezza della famiglia veniva gettata in faccia al visitatore per mezzo delle cassepanche e dei cassettoni. Così la credenza custodiva tutti i servizi di cristalleria, le porcellane e l'argenteria del padrone di casa. Era magnifico! Un altar maggiore faceva bella mostra di sé nel posto migliore della stanza da pranzo, e nel Sancta Sanctorum, nel tabernacolo, si trovavano i bicchieri da liquore. Io ho sempre ripetuto ai miei allievi: quanto più una famiglia è ordinaria tanto più ricca e grande è la sua credenza. Gli imperatori non ne possiedono affatto! La massaia antimoderna si chiede con angoscia dove deve riporre tutte queste cose. Ma lungo il percorso che unisce la stanza da pranzo alla cucina si trovano una quantità di spazi liberi sulle pareti, di vani sotto le finestre e di nicchie che, se chiusi da ante di legno dolce, consentono una sistemazione di cristallerie e porcellane molto più pratica di quella offerta da una profonda credenza. Piatti e bicchieri non hanno nessun bisogno di essere riposti gli uni dietro agli altri. Ancor più antimoderno è l'uso di custodire i vestiti negli armadi, i quali vengono sistemati nella camera come oggetti di lusso e segno di ricchezza. Si rifletta: un armadio può essere considerato un po' come un astuccio che contiene un gioiello prezioso. Ora si tenga presente la dissonanza che c'è fra il luogo di custodia - l'armadio - e i nostri vestiti moderni. L'armadio è intagliato e intarsiato, gli abiti sono semplici. Tra l'armadio del cortigiano francese e i suoi  capi di abbigliamento muniti di bottoni di brillanti esisteva certamente una parentela; era proprio dello spirito di quell'epoca far sfoggio di sé con armadi e cassettoni e far intuire dalla ricchezza dell'armadio il prezioso contenuto. Ma, amici miei, mettetevi una mano sul cuore, non vi sembra che un simile  atteggiamento nell'uomo d'oggi sia l'espressione di una gran volgarità?!"
           }
         },
-        "Number": 3
+        "Number": 3,
+        "PageId": 3
       },
       "4": {
         "_answerCorrect": "A",
@@ -11082,7 +11312,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 4
+        "Number": 4,
+        "PageId": 4
       },
       "7": {
         "_answerCorrect": "A",
@@ -11144,7 +11375,8 @@
             "_textAnswer": "Almeno un calvo non è laureato"
           }
         },
-        "Number": 7
+        "Number": 7,
+        "PageId": 7
       },
       "8": {
         "_answerCorrect": "A",
@@ -11186,7 +11418,8 @@
             "_textAnswer": "dalle pratiche di esorcismo compiute dai cosiddetti simoniaci nel XVI secolo"
           }
         },
-        "Number": 8
+        "Number": 8,
+        "PageId": 8
       },
       "9": {
         "_answerCorrect": "A",
@@ -11232,7 +11465,8 @@
             "_textAnswer": "La borghesia (artigianato, mercanti, liberi professionisti) fu esclusa dal governo della città"
           }
         },
-        "Number": 9
+        "Number": 9,
+        "PageId": 9
       },
       "5": {
         "_answerCorrect": "A",
@@ -11318,7 +11552,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 5
+        "Number": 5,
+        "PageId": 5
       },
       "19": {
         "_answerCorrect": "A",
@@ -11360,7 +11595,8 @@
             "_textAnswer": "12 × 3 34 × 2"
           }
         },
-        "Number": 19
+        "Number": 19,
+        "PageId": 19
       },
       "20": {
         "_answerCorrect": "A",
@@ -11410,7 +11646,8 @@
             "_textAnswer": "1,2"
           }
         },
-        "Number": 20
+        "Number": 20,
+        "PageId": 20
       },
       "21": {
         "_answerCorrect": "A",
@@ -11482,7 +11719,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 21
+        "Number": 21,
+        "PageId": 21
       },
       "22": {
         "_answerCorrect": "A",
@@ -11528,7 +11766,8 @@
             "_textAnswer": "Almeno un'auto rimarrà vuota"
           }
         },
-        "Number": 22
+        "Number": 22,
+        "PageId": 6
       },
       "23": {
         "_answerCorrect": "A",
@@ -11578,7 +11817,8 @@
             "_textAnswer": "se un Venusiano abita su Marte allora ha più di una mgl"
           }
         },
-        "Number": 23
+        "Number": 23,
+        "PageId": 6
       },
       "6": {
         "_answerCorrect": "A",
@@ -11620,7 +11860,8 @@
             "_textAnswer": "6"
           }
         },
-        "Number": 6
+        "Number": 6,
+        "PageId": 6
       },
       "25": {
         "_answerCorrect": "A",
@@ -11678,7 +11919,8 @@
             "_textAnswer": "esistono matematici che non sono saggi"
           }
         },
-        "Number": 25
+        "Number": 25,
+        "PageId": 7
       },
       "26": {
         "_answerCorrect": "A",
@@ -11724,7 +11966,8 @@
             "_textAnswer": "il numero dei gettoni quadrati blu è uguale al numero dei gettoni quadrati verdi"
           }
         },
-        "Number": 26
+        "Number": 26,
+        "PageId": 7
       },
       "27": {
         "_answerCorrect": "A",
@@ -11806,7 +12049,8 @@
             "_textAnswer": "1.N – 2.P – 3.N – 4.P – 5.P"
           }
         },
-        "Number": 27
+        "Number": 27,
+        "PageId": 7
       },
       "29": {
         "_answerCorrect": "A",
@@ -11852,7 +12096,8 @@
             "_textAnswer": "Non tutti i dolci in cui è presente un buco sono ciambelle"
           }
         },
-        "Number": 29
+        "Number": 29,
+        "PageId": 8
       },
       "30": {
         "_answerCorrect": "A",
@@ -11902,7 +12147,8 @@
             "_textAnswer": "30 minuti"
           }
         },
-        "Number": 30
+        "Number": 30,
+        "PageId": 8
       },
       "31": {
         "_answerCorrect": "A",
@@ -11960,7 +12206,8 @@
             "_textAnswer": "71152712"
           }
         },
-        "Number": 31
+        "Number": 31,
+        "PageId": 8
       },
       "32": {
         "_answerCorrect": "A",
@@ -12018,7 +12265,8 @@
             "_textAnswer": "I dati non sono sufficienti per stabilirlo Test di Storia"
           }
         },
-        "Number": 32
+        "Number": 32,
+        "PageId": 8
       },
       "33": {
         "_answerCorrect": "A",
@@ -12060,7 +12308,8 @@
             "_textAnswer": "dell’Inghilterra e del Regno di Sardegna contro l’Impero Ottomano"
           }
         },
-        "Number": 33
+        "Number": 33,
+        "PageId": 8
       },
       "35": {
         "_answerCorrect": "A",
@@ -12102,7 +12351,8 @@
             "_textAnswer": "della proclamazione della Repubblica italiana"
           }
         },
-        "Number": 35
+        "Number": 35,
+        "PageId": 9
       },
       "36": {
         "_answerCorrect": "A",
@@ -12144,7 +12394,8 @@
             "_textAnswer": "nell’ultimo decennio dell’Ottocento"
           }
         },
-        "Number": 36
+        "Number": 36,
+        "PageId": 9
       },
       "37": {
         "_answerCorrect": "A",
@@ -12186,7 +12437,8 @@
             "_textAnswer": "Libia"
           }
         },
-        "Number": 37
+        "Number": 37,
+        "PageId": 9
       },
       "38": {
         "_answerCorrect": "A",
@@ -12228,7 +12480,8 @@
             "_textAnswer": "Solo le navi olandesi potevano commerciare tra madrepatria e colonie olandesi"
           }
         },
-        "Number": 38
+        "Number": 38,
+        "PageId": 9
       },
       "39": {
         "_answerCorrect": "A",
@@ -12270,7 +12523,8 @@
             "_textAnswer": "L’eccidio delle Fosse Ardeatine"
           }
         },
-        "Number": 39
+        "Number": 39,
+        "PageId": 9
       },
       "40": {
         "_answerCorrect": "A",
@@ -12312,7 +12566,8 @@
             "_textAnswer": "Marco Antonio e Giulio Cesare"
           }
         },
-        "Number": 40
+        "Number": 40,
+        "PageId": 9
       },
       "42": {
         "_answerCorrect": "A",
@@ -12354,7 +12609,8 @@
             "_textAnswer": "L’area percorribile posta dietro l’altare maggiore"
           }
         },
-        "Number": 42
+        "Number": 42,
+        "PageId": 10
       },
       "43": {
         "_answerCorrect": "A",
@@ -12396,7 +12652,8 @@
             "_textAnswer": "Walter Gropius"
           }
         },
-        "Number": 43
+        "Number": 43,
+        "PageId": 10
       },
       "44": {
         "_answerCorrect": "A",
@@ -12442,7 +12699,8 @@
             "_textAnswer": "Cimabue"
           }
         },
-        "Number": 44
+        "Number": 44,
+        "PageId": 10
       },
       "10": {
         "_answerCorrect": "A",
@@ -12484,7 +12742,8 @@
             "_textAnswer": "Piero Manzoni"
           }
         },
-        "Number": 10
+        "Number": 10,
+        "PageId": 10
       },
       "46": {
         "_answerCorrect": "A",
@@ -12542,7 +12801,8 @@
             "_textAnswer": "a – b – d – e – c"
           }
         },
-        "Number": 46
+        "Number": 46,
+        "PageId": 11
       },
       "47": {
         "_answerCorrect": "A",
@@ -12584,7 +12844,8 @@
             "_textAnswer": "Peristasi"
           }
         },
-        "Number": 47
+        "Number": 47,
+        "PageId": 11
       },
       "48": {
         "_answerCorrect": "A",
@@ -12630,7 +12891,8 @@
             "_textAnswer": "Costruttivismo"
           }
         },
-        "Number": 48
+        "Number": 48,
+        "PageId": 11
       },
       "49": {
         "_answerCorrect": "A",
@@ -12672,7 +12934,8 @@
             "_textAnswer": "un’Accademia di Belle Arti sorta a Chicago, che diffuse negli Stati Uniti le correnti eclettiche provenienti dall’Europa"
           }
         },
-        "Number": 49
+        "Number": 49,
+        "PageId": 11
       },
       "11": {
         "_answerCorrect": "A",
@@ -12714,7 +12977,8 @@
             "_textAnswer": "elevare l’altezza degli impianti difensivi urbani"
           }
         },
-        "Number": 11
+        "Number": 11,
+        "PageId": 11
       },
       "51": {
         "_answerCorrect": "A",
@@ -12756,7 +13020,8 @@
             "_textAnswer": "scemo Test di Disegno e Rappresentazione"
           }
         },
-        "Number": 51
+        "Number": 51,
+        "PageId": 12
       },
       "12": {
         "_answerCorrect": "A",
@@ -12802,7 +13067,8 @@
             "_textAnswer": "e"
           }
         },
-        "Number": 12
+        "Number": 12,
+        "PageId": 12
       },
       "53": {
         "_answerCorrect": "A",
@@ -12848,7 +13114,8 @@
             "_textAnswer": "d"
           }
         },
-        "Number": 53
+        "Number": 53,
+        "PageId": 13
       },
       "13": {
         "_answerCorrect": "A",
@@ -12894,7 +13161,8 @@
             "_textAnswer": "E"
           }
         },
-        "Number": 13
+        "Number": 13,
+        "PageId": 13
       },
       "55": {
         "_answerCorrect": "A",
@@ -12940,7 +13208,8 @@
             "_textAnswer": "E – E"
           }
         },
-        "Number": 55
+        "Number": 55,
+        "PageId": 14
       },
       "14": {
         "_answerCorrect": "A",
@@ -12986,7 +13255,8 @@
             "_textAnswer": "La sezione di entrambe le superfici può generare anche un rettangolo"
           }
         },
-        "Number": 14
+        "Number": 14,
+        "PageId": 14
       },
       "57": {
         "_answerCorrect": "A",
@@ -13028,7 +13298,8 @@
             "_textAnswer": "e"
           }
         },
-        "Number": 57
+        "Number": 57,
+        "PageId": 15
       },
       "15": {
         "_answerCorrect": "A",
@@ -13070,7 +13341,8 @@
             "_textAnswer": "1 – B; 2 – C; 3 – A"
           }
         },
-        "Number": 15
+        "Number": 15,
+        "PageId": 15
       },
       "59": {
         "_answerCorrect": "A",
@@ -13112,7 +13384,8 @@
             "_textAnswer": "Sezione 1 – nessuna associazione, Sezione 2 – C, Sezione 3 – A"
           }
         },
-        "Number": 59
+        "Number": 59,
+        "PageId": 16
       },
       "60": {
         "_answerCorrect": "A",
@@ -13154,7 +13427,8 @@
             "_textAnswer": "mezzo decimetro"
           }
         },
-        "Number": 60
+        "Number": 60,
+        "PageId": 16
       },
       "16": {
         "_answerCorrect": "A",
@@ -13200,7 +13474,8 @@
             "_textAnswer": "1 – Est;     2 – Ovest; 3 – Nord/Ovest"
           }
         },
-        "Number": 16
+        "Number": 16,
+        "PageId": 16
       },
       "62": {
         "_answerCorrect": "A",
@@ -13242,7 +13517,8 @@
             "_textAnswer": "e"
           }
         },
-        "Number": 62
+        "Number": 62,
+        "PageId": 17
       },
       "63": {
         "_answerCorrect": "A",
@@ -13288,7 +13564,8 @@
             "_textAnswer": "e"
           }
         },
-        "Number": 63
+        "Number": 63,
+        "PageId": 17
       },
       "17": {
         "_answerCorrect": "A",
@@ -13330,7 +13607,8 @@
             "_textAnswer": "a-estradosso; b-luce; c-intradosso; d-concio di chiave; e-piano di imposta"
           }
         },
-        "Number": 17
+        "Number": 17,
+        "PageId": 17
       },
       "65": {
         "_answerCorrect": "A",
@@ -13376,7 +13654,8 @@
             "_textAnswer": "Spaccato assonometrico"
           }
         },
-        "Number": 65
+        "Number": 65,
+        "PageId": 18
       },
       "66": {
         "_answerCorrect": "A",
@@ -13418,7 +13697,8 @@
             "_textAnswer": "Tetto piano"
           }
         },
-        "Number": 66
+        "Number": 66,
+        "PageId": 18
       },
       "18": {
         "_answerCorrect": "A",
@@ -13464,7 +13744,8 @@
             "_textAnswer": "Un rettangolo"
           }
         },
-        "Number": 18
+        "Number": 18,
+        "PageId": 18
       },
       "68": {
         "_answerCorrect": "A",
@@ -13532,7 +13813,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 68
+        "Number": 68,
+        "PageId": 19
       },
       "69": {
         "_answerCorrect": "A",
@@ -13608,7 +13890,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 69
+        "Number": 69,
+        "PageId": 19
       },
       "70": {
         "_answerCorrect": "A",
@@ -13658,7 +13941,8 @@
             "_textAnswer": "16,8"
           }
         },
-        "Number": 70
+        "Number": 70,
+        "PageId": 19
       },
       "71": {
         "_answerCorrect": "A",
@@ -13704,7 +13988,8 @@
             "_textAnswer": "5,5 pq"
           }
         },
-        "Number": 71
+        "Number": 71,
+        "PageId": 19
       },
       "72": {
         "_answerCorrect": "A",
@@ -13750,7 +14035,8 @@
             "_textAnswer": "sempre uguale a 1 5"
           }
         },
-        "Number": 72
+        "Number": 72,
+        "PageId": 19
       },
       "74": {
         "_answerCorrect": "A",
@@ -13796,7 +14082,8 @@
             "_textAnswer": "14,5"
           }
         },
-        "Number": 74
+        "Number": 74,
+        "PageId": 20
       },
       "75": {
         "_answerCorrect": "A",
@@ -13842,7 +14129,8 @@
             "_textAnswer": "2 2"
           }
         },
-        "Number": 75
+        "Number": 75,
+        "PageId": 20
       },
       "76": {
         "_answerCorrect": "A",
@@ -13888,7 +14176,8 @@
             "_textAnswer": "70 π"
           }
         },
-        "Number": 76
+        "Number": 76,
+        "PageId": 20
       },
       "77": {
         "_answerCorrect": "A",
@@ -13938,7 +14227,8 @@
             "_textAnswer": " 113"
           }
         },
-        "Number": 77
+        "Number": 77,
+        "PageId": 20
       },
       "78": {
         "_answerCorrect": "A",
@@ -13996,7 +14286,8 @@
             "_textAnswer": "Aumenta del 15% 2"
           }
         },
-        "Number": 78
+        "Number": 78,
+        "PageId": 20
       }
     }
   },
@@ -14043,7 +14334,8 @@
             "_textAnswer": "Platoon Vengono ora presentati tre brani, tratti da testi significativi, ai quali non è stata apportata alcuna modifica, se non l’eliminazione di riferimenti non essenziali. Ciascuno dei brani presentati è seguito da cinque quesiti riguardanti il suo contenuto. Per ogni quesito sono previste cinque risposte differenti, contrassegnate con le lettere A, B, C, D, E. Per ogni quesito scegliete fra le cinque risposte o affermazioni quella che ritenete corretta in base soltanto a ciò che risulta esplicito o implicito nel brano, cioè solo in base a quanto si ricava dal brano e non in base a quanto eventualmente sapete già sull’argomento."
           }
         },
-        "Number": 1
+        "Number": 1,
+        "PageId": 1
       },
       "2": {
         "_answerCorrect": "A",
@@ -14141,19 +14433,22 @@
             "_textAnswer": ""
           }
         },
-        "Number": 2
+        "Number": 2,
+        "PageId": 2
       },
       "3": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 3
+        "Number": 3,
+        "PageId": 3
       },
       "4": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 4
+        "Number": 4,
+        "PageId": 4
       },
       "5": {
         "_answerCorrect": "A",
@@ -14229,7 +14524,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 5
+        "Number": 5,
+        "PageId": 5
       },
       "20": {
         "_answerCorrect": "A",
@@ -14271,7 +14567,8 @@
             "_textAnswer": "Nessuna corrispondenza possibile"
           }
         },
-        "Number": 20
+        "Number": 20,
+        "PageId": 20
       },
       "21": {
         "_answerCorrect": "A",
@@ -14313,7 +14610,8 @@
             "_textAnswer": "Tre viste uguali"
           }
         },
-        "Number": 21
+        "Number": 21,
+        "PageId": 21
       },
       "22": {
         "_answerCorrect": "A",
@@ -14359,7 +14657,8 @@
             "_textAnswer": "Copertura 4"
           }
         },
-        "Number": 22
+        "Number": 22,
+        "PageId": 22
       },
       "23": {
         "_answerCorrect": "A",
@@ -14405,7 +14704,8 @@
             "_textAnswer": "1-Sud;  2-Est;  3-Nord;  4-Ovest"
           }
         },
-        "Number": 23
+        "Number": 23,
+        "PageId": 23
       },
       "6": {
         "_answerCorrect": "A",
@@ -14455,7 +14755,8 @@
             "_textAnswer": "3 scarpe"
           }
         },
-        "Number": 6
+        "Number": 6,
+        "PageId": 6
       },
       "25": {
         "_answerCorrect": "A",
@@ -14501,7 +14802,8 @@
             "_textAnswer": " 55/"
           }
         },
-        "Number": 25
+        "Number": 25,
+        "PageId": 25
       },
       "26": {
         "_answerCorrect": "A",
@@ -14551,13 +14853,15 @@
             "_textAnswer": " 23F"
           }
         },
-        "Number": 26
+        "Number": 26,
+        "PageId": 26
       },
       "27": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 27
+        "Number": 27,
+        "PageId": 27
       },
       "28": {
         "_answerCorrect": "A",
@@ -14611,7 +14915,8 @@
             "_textAnswer": "58"
           }
         },
-        "Number": 28
+        "Number": 28,
+        "PageId": 7
       },
       "7": {
         "_answerCorrect": "A",
@@ -14661,7 +14966,8 @@
             "_textAnswer": "Il colpevole è uno solo"
           }
         },
-        "Number": 7
+        "Number": 7,
+        "PageId": 7
       },
       "30": {
         "_answerCorrect": "A",
@@ -14707,7 +15013,8 @@
             "_textAnswer": "12 monete"
           }
         },
-        "Number": 30
+        "Number": 30,
+        "PageId": 8
       },
       "31": {
         "_answerCorrect": "A",
@@ -14761,7 +15068,8 @@
             "_textAnswer": "45"
           }
         },
-        "Number": 31
+        "Number": 31,
+        "PageId": 8
       },
       "32": {
         "_answerCorrect": "A",
@@ -14819,7 +15127,8 @@
             "_textAnswer": "il primo è un cavaliere, il secondo non è ricco Test di Storia"
           }
         },
-        "Number": 32
+        "Number": 32,
+        "PageId": 8
       },
       "8": {
         "_answerCorrect": "A",
@@ -14861,7 +15170,8 @@
             "_textAnswer": "Fu dipinto da Pablo Picasso negli anni Settanta"
           }
         },
-        "Number": 8
+        "Number": 8,
+        "PageId": 8
       },
       "34": {
         "_answerCorrect": "A",
@@ -14903,7 +15213,8 @@
             "_textAnswer": "Frida Kahlo"
           }
         },
-        "Number": 34
+        "Number": 34,
+        "PageId": 9
       },
       "35": {
         "_answerCorrect": "A",
@@ -14945,7 +15256,8 @@
             "_textAnswer": "le decorazioni sul tema dell’acqua nei giardini"
           }
         },
-        "Number": 35
+        "Number": 35,
+        "PageId": 9
       },
       "36": {
         "_answerCorrect": "A",
@@ -14987,7 +15299,8 @@
             "_textAnswer": "Pietà vaticana"
           }
         },
-        "Number": 36
+        "Number": 36,
+        "PageId": 9
       },
       "9": {
         "_answerCorrect": "A",
@@ -15029,7 +15342,8 @@
             "_textAnswer": "Pronao"
           }
         },
-        "Number": 9
+        "Number": 9,
+        "PageId": 9
       },
       "38": {
         "_answerCorrect": "A",
@@ -15071,7 +15385,8 @@
             "_textAnswer": "Il sistema delle volte"
           }
         },
-        "Number": 38
+        "Number": 38,
+        "PageId": 10
       },
       "39": {
         "_answerCorrect": "A",
@@ -15113,7 +15428,8 @@
             "_textAnswer": "Basilica di San Pietro"
           }
         },
-        "Number": 39
+        "Number": 39,
+        "PageId": 10
       },
       "10": {
         "_answerCorrect": "A",
@@ -15155,7 +15471,8 @@
             "_textAnswer": "b-a-c-e-d"
           }
         },
-        "Number": 10
+        "Number": 10,
+        "PageId": 10
       },
       "41": {
         "_answerCorrect": "A",
@@ -15197,7 +15514,8 @@
             "_textAnswer": "Giacomo Manzù"
           }
         },
-        "Number": 41
+        "Number": 41,
+        "PageId": 11
       },
       "42": {
         "_answerCorrect": "A",
@@ -15259,7 +15577,8 @@
             "_textAnswer": "c-e-a-b-d"
           }
         },
-        "Number": 42
+        "Number": 42,
+        "PageId": 11
       },
       "43": {
         "_answerCorrect": "A",
@@ -15301,7 +15620,8 @@
             "_textAnswer": "l’inventore del sestante"
           }
         },
-        "Number": 43
+        "Number": 43,
+        "PageId": 11
       },
       "44": {
         "_answerCorrect": "A",
@@ -15343,7 +15663,8 @@
             "_textAnswer": "Argentina e Uruguay"
           }
         },
-        "Number": 44
+        "Number": 44,
+        "PageId": 11
       },
       "11": {
         "_answerCorrect": "A",
@@ -15385,7 +15706,8 @@
             "_textAnswer": "fu inglobato dall’impero persiano"
           }
         },
-        "Number": 11
+        "Number": 11,
+        "PageId": 11
       },
       "46": {
         "_answerCorrect": "A",
@@ -15427,7 +15749,8 @@
             "_textAnswer": "La scoperta dell’America"
           }
         },
-        "Number": 46
+        "Number": 46,
+        "PageId": 12
       },
       "47": {
         "_answerCorrect": "A",
@@ -15469,7 +15792,8 @@
             "_textAnswer": "XIV secolo"
           }
         },
-        "Number": 47
+        "Number": 47,
+        "PageId": 12
       },
       "48": {
         "_answerCorrect": "A",
@@ -15511,7 +15835,8 @@
             "_textAnswer": "La recinzione dei pascoli per bovini e ovini"
           }
         },
-        "Number": 48
+        "Number": 48,
+        "PageId": 12
       },
       "49": {
         "_answerCorrect": "A",
@@ -15557,7 +15882,8 @@
             "_textAnswer": "Decimo emendamento"
           }
         },
-        "Number": 49
+        "Number": 49,
+        "PageId": 12
       },
       "50": {
         "_answerCorrect": "A",
@@ -15603,7 +15929,8 @@
             "_textAnswer": "Iran"
           }
         },
-        "Number": 50
+        "Number": 50,
+        "PageId": 12
       },
       "12": {
         "_answerCorrect": "A",
@@ -15645,7 +15972,8 @@
             "_textAnswer": "Keith Haring"
           }
         },
-        "Number": 12
+        "Number": 12,
+        "PageId": 12
       },
       "52": {
         "_answerCorrect": "A",
@@ -15687,7 +16015,8 @@
             "_textAnswer": "prospettiva a piano verticale"
           }
         },
-        "Number": 52
+        "Number": 52,
+        "PageId": 13
       },
       "13": {
         "_answerCorrect": "A",
@@ -15729,7 +16058,8 @@
             "_textAnswer": "Una volta a padiglione in proiezione ortogonale e assonometria"
           }
         },
-        "Number": 13
+        "Number": 13,
+        "PageId": 13
       },
       "54": {
         "_answerCorrect": "A",
@@ -15771,7 +16101,8 @@
             "_textAnswer": "Nessuna tra quelle proposte"
           }
         },
-        "Number": 54
+        "Number": 54,
+        "PageId": 14
       },
       "14": {
         "_answerCorrect": "A",
@@ -15813,7 +16144,8 @@
             "_textAnswer": "Nessuno tra quelli proposti"
           }
         },
-        "Number": 14
+        "Number": 14,
+        "PageId": 14
       },
       "15": {
         "_answerCorrect": "A",
@@ -15859,7 +16191,8 @@
             "_textAnswer": "Assonometria 1"
           }
         },
-        "Number": 15
+        "Number": 15,
+        "PageId": 15
       },
       "16": {
         "_answerCorrect": "A",
@@ -15905,7 +16238,8 @@
             "_textAnswer": "Sezione EE"
           }
         },
-        "Number": 16
+        "Number": 16,
+        "PageId": 16
       },
       "17": {
         "_answerCorrect": "A",
@@ -15947,7 +16281,8 @@
             "_textAnswer": "Un modello digitale “a nuvola di punti”"
           }
         },
-        "Number": 17
+        "Number": 17,
+        "PageId": 17
       },
       "18": {
         "_answerCorrect": "A",
@@ -15989,7 +16324,8 @@
             "_textAnswer": "1-Residenza,  2-Spazi commerciali,  3-Uffici,  4-Albergo"
           }
         },
-        "Number": 18
+        "Number": 18,
+        "PageId": 18
       },
       "19": {
         "_answerCorrect": "A",
@@ -16035,7 +16371,8 @@
             "_textAnswer": "24 m"
           }
         },
-        "Number": 19
+        "Number": 19,
+        "PageId": 19
       },
       "62": {
         "_answerCorrect": "A",
@@ -16081,7 +16418,8 @@
             "_textAnswer": "Dal basso verso l’alto e angolo compreso tra direzione della luce e piano sul quale giace il manufatto > 45°"
           }
         },
-        "Number": 62
+        "Number": 62,
+        "PageId": 21
       },
       "63": {
         "_answerCorrect": "A",
@@ -16127,7 +16465,8 @@
             "_textAnswer": "r è incidente ad ogni retta di α"
           }
         },
-        "Number": 63
+        "Number": 63,
+        "PageId": 21
       },
       "67": {
         "_answerCorrect": "A",
@@ -16169,7 +16508,8 @@
             "_textAnswer": "Prospettiva 5 Test di Fisica e Matematica"
           }
         },
-        "Number": 67
+        "Number": 67,
+        "PageId": 24
       },
       "68": {
         "_answerCorrect": "A",
@@ -16215,7 +16555,8 @@
             "_textAnswer": "44"
           }
         },
-        "Number": 68
+        "Number": 68,
+        "PageId": 24
       },
       "24": {
         "_answerCorrect": "A",
@@ -16279,7 +16620,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 24
+        "Number": 24,
+        "PageId": 24
       },
       "70": {
         "_answerCorrect": "A",
@@ -16329,7 +16671,8 @@
             "_textAnswer": "2500"
           }
         },
-        "Number": 70
+        "Number": 70,
+        "PageId": 25
       },
       "71": {
         "_answerCorrect": "A",
@@ -16379,7 +16722,8 @@
             "_textAnswer": "x ≠ 2"
           }
         },
-        "Number": 71
+        "Number": 71,
+        "PageId": 25
       },
       "72": {
         "_answerCorrect": "A",
@@ -16421,7 +16765,8 @@
             "_textAnswer": " 410/ 22"
           }
         },
-        "Number": 72
+        "Number": 72,
+        "PageId": 25
       },
       "73": {
         "_answerCorrect": "A",
@@ -16463,7 +16808,8 @@
             "_textAnswer": "42064"
           }
         },
-        "Number": 73
+        "Number": 73,
+        "PageId": 25
       },
       "75": {
         "_answerCorrect": "A",
@@ -16629,7 +16975,8 @@
             "_textAnswer": " 21/"
           }
         },
-        "Number": 75
+        "Number": 75,
+        "PageId": 26
       },
       "76": {
         "_answerCorrect": "A",
@@ -16679,7 +17026,8 @@
             "_textAnswer": "b = 12 – 2a"
           }
         },
-        "Number": 76
+        "Number": 76,
+        "PageId": 26
       },
       "77": {
         "_answerCorrect": "A",
@@ -16729,7 +17077,8 @@
             "_textAnswer": " 35/ 3"
           }
         },
-        "Number": 77
+        "Number": 77,
+        "PageId": 26
       },
       "78": {
         "_answerCorrect": "A",
@@ -16799,7 +17148,8 @@
             "_textAnswer": "5,5 cm 3"
           }
         },
-        "Number": 78
+        "Number": 78,
+        "PageId": 26
       }
     }
   },
@@ -16874,7 +17224,8 @@
             "_textAnswer": "I sondaggi d’opinione non sono attendibili"
           }
         },
-        "Number": 1
+        "Number": 1,
+        "PageId": 1
       },
       "4": {
         "_answerCorrect": "A",
@@ -16932,7 +17283,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 4
+        "Number": 4,
+        "PageId": 4
       },
       "5": {
         "_answerCorrect": "A",
@@ -16994,7 +17346,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 5
+        "Number": 5,
+        "PageId": 5
       },
       "6": {
         "_answerCorrect": "A",
@@ -21109,7 +21462,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 6
+        "Number": 6,
+        "PageId": 6
       },
       "7": {
         "_answerCorrect": "A",
@@ -21163,7 +21517,8 @@
             "_textAnswer": "40%"
           }
         },
-        "Number": 7
+        "Number": 7,
+        "PageId": 7
       },
       "8": {
         "_answerCorrect": "A",
@@ -21225,7 +21580,8 @@
             "_textAnswer": "Punto U"
           }
         },
-        "Number": 8
+        "Number": 8,
+        "PageId": 8
       },
       "2": {
         "_answerCorrect": "A",
@@ -21267,7 +21623,8 @@
             "_textAnswer": "Lussemburgo e Slovenia"
           }
         },
-        "Number": 2
+        "Number": 2,
+        "PageId": 2
       },
       "10": {
         "_answerCorrect": "A",
@@ -21393,7 +21750,8 @@
             "_textAnswer": "alcune zone dentro le mura erano disabitate"
           }
         },
-        "Number": 10
+        "Number": 10,
+        "PageId": 10
       },
       "11": {
         "_answerCorrect": "A",
@@ -21435,7 +21793,8 @@
             "_textAnswer": "Postmodernista"
           }
         },
-        "Number": 11
+        "Number": 11,
+        "PageId": 11
       },
       "12": {
         "_answerCorrect": "A",
@@ -21477,7 +21836,8 @@
             "_textAnswer": "Brutalismo"
           }
         },
-        "Number": 12
+        "Number": 12,
+        "PageId": 12
       },
       "3": {
         "_answerCorrect": "A",
@@ -21535,7 +21895,8 @@
             "_textAnswer": "3150 cm 3"
           }
         },
-        "Number": 3
+        "Number": 3,
+        "PageId": 3
       },
       "14": {
         "_answerCorrect": "A",
@@ -21577,7 +21938,8 @@
             "_textAnswer": "Fu un mecenate delle arti e della cultura"
           }
         },
-        "Number": 14
+        "Number": 14,
+        "PageId": 14
       },
       "18": {
         "_answerCorrect": "A",
@@ -21623,7 +21985,8 @@
             "_textAnswer": "4"
           }
         },
-        "Number": 18
+        "Number": 18,
+        "PageId": 18
       },
       "9": {
         "_answerCorrect": "A",
@@ -21761,7 +22124,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 9
+        "Number": 9,
+        "PageId": 9
       },
       "27": {
         "_answerCorrect": "A",
@@ -21803,7 +22167,8 @@
             "_textAnswer": "i nuovi elementi architettonici definirono i dipinti che li decoravano"
           }
         },
-        "Number": 27
+        "Number": 27,
+        "PageId": 11
       },
       "28": {
         "_answerCorrect": "A",
@@ -21849,7 +22214,8 @@
             "_textAnswer": "le loro chiese avevano un sobrio stile geometrico"
           }
         },
-        "Number": 28
+        "Number": 28,
+        "PageId": 11
       },
       "29": {
         "_answerCorrect": "A",
@@ -21895,7 +22261,8 @@
             "_textAnswer": "Il credito pubblico era disponibile"
           }
         },
-        "Number": 29
+        "Number": 29,
+        "PageId": 11
       },
       "30": {
         "_answerCorrect": "A",
@@ -21937,7 +22304,8 @@
             "_textAnswer": "dall’influenza di Leone X e di Giulio II Test di Storia"
           }
         },
-        "Number": 30
+        "Number": 30,
+        "PageId": 11
       },
       "32": {
         "_answerCorrect": "A",
@@ -21983,7 +22351,8 @@
             "_textAnswer": "Fusto, voluta, fregio, architrave, abaco"
           }
         },
-        "Number": 32
+        "Number": 32,
+        "PageId": 12
       },
       "33": {
         "_answerCorrect": "A",
@@ -22025,7 +22394,8 @@
             "_textAnswer": "L’intera società si va scindendo sempre di più in due grandi campi nemici, in due grandi classi direttamente contrapposte l’una all’altra: borghesia e proletariato"
           }
         },
-        "Number": 33
+        "Number": 33,
+        "PageId": 12
       },
       "34": {
         "_answerCorrect": "A",
@@ -22067,7 +22437,8 @@
             "_textAnswer": "Annibale Carracci"
           }
         },
-        "Number": 34
+        "Number": 34,
+        "PageId": 12
       },
       "36": {
         "_answerCorrect": "A",
@@ -22109,7 +22480,8 @@
             "_textAnswer": "c, a, b, e, d"
           }
         },
-        "Number": 36
+        "Number": 36,
+        "PageId": 13
       },
       "37": {
         "_answerCorrect": "A",
@@ -22151,7 +22523,8 @@
             "_textAnswer": "Arcadio"
           }
         },
-        "Number": 37
+        "Number": 37,
+        "PageId": 13
       },
       "38": {
         "_answerCorrect": "A",
@@ -22193,7 +22566,8 @@
             "_textAnswer": "Il documento istitutivo del Credo al Concilio di Nicea"
           }
         },
-        "Number": 38
+        "Number": 38,
+        "PageId": 13
       },
       "13": {
         "_answerCorrect": "A",
@@ -22235,7 +22609,8 @@
             "_textAnswer": "Il sostegno per l’istruzione"
           }
         },
-        "Number": 13
+        "Number": 13,
+        "PageId": 13
       },
       "40": {
         "_answerCorrect": "A",
@@ -22277,7 +22652,8 @@
             "_textAnswer": "Il Muro di Berlino fu costruito nel 1962 dopo la Crisi cubana"
           }
         },
-        "Number": 40
+        "Number": 40,
+        "PageId": 14
       },
       "41": {
         "_answerCorrect": "A",
@@ -22319,7 +22695,8 @@
             "_textAnswer": "Antonio da Sangallo"
           }
         },
-        "Number": 41
+        "Number": 41,
+        "PageId": 14
       },
       "43": {
         "_answerCorrect": "A",
@@ -22365,7 +22742,8 @@
             "_textAnswer": "1 – X;  2 – Z;  3 – W;  4 – Y"
           }
         },
-        "Number": 43
+        "Number": 43,
+        "PageId": 15
       },
       "15": {
         "_answerCorrect": "A",
@@ -22411,7 +22789,8 @@
             "_textAnswer": "4"
           }
         },
-        "Number": 15
+        "Number": 15,
+        "PageId": 15
       },
       "45": {
         "_answerCorrect": "A",
@@ -22453,7 +22832,8 @@
             "_textAnswer": "E"
           }
         },
-        "Number": 45
+        "Number": 45,
+        "PageId": 16
       },
       "16": {
         "_answerCorrect": "A",
@@ -22499,7 +22879,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 16
+        "Number": 16,
+        "PageId": 16
       },
       "47": {
         "_answerCorrect": "A",
@@ -22545,7 +22926,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 47
+        "Number": 47,
+        "PageId": 17
       },
       "17": {
         "_answerCorrect": "A",
@@ -22591,7 +22973,8 @@
             "_textAnswer": "1 – Prospettiva;   2 – Sezione;   3 – Piante;   4 – Prospetto e sezione"
           }
         },
-        "Number": 17
+        "Number": 17,
+        "PageId": 17
       },
       "49": {
         "_answerCorrect": "A",
@@ -22637,7 +23020,8 @@
             "_textAnswer": "a – 4;  b – 1;  c – 2;  d – 3"
           }
         },
-        "Number": 49
+        "Number": 49,
+        "PageId": 18
       },
       "51": {
         "_answerCorrect": "A",
@@ -22679,7 +23063,8 @@
             "_textAnswer": "1 – c,  2 – d,  3 – b,  4 – a"
           }
         },
-        "Number": 51
+        "Number": 51,
+        "PageId": 19
       },
       "19": {
         "_answerCorrect": "A",
@@ -22725,7 +23110,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 19
+        "Number": 19,
+        "PageId": 19
       },
       "53": {
         "_answerCorrect": "A",
@@ -22775,7 +23161,8 @@
             "_textAnswer": "90 9x"
           }
         },
-        "Number": 53
+        "Number": 53,
+        "PageId": 20
       },
       "54": {
         "_answerCorrect": "A",
@@ -22843,7 +23230,8 @@
             "_textAnswer": " 32x 3+x −"
           }
         },
-        "Number": 54
+        "Number": 54,
+        "PageId": 20
       },
       "20": {
         "_answerCorrect": "A",
@@ -22889,7 +23277,8 @@
             "_textAnswer": "       −2 −3 2 2 31p p,"
           }
         },
-        "Number": 20
+        "Number": 20,
+        "PageId": 20
       },
       "56": {
         "_answerCorrect": "A",
@@ -22947,7 +23336,8 @@
             "_textAnswer": " cm 12 2 −"
           }
         },
-        "Number": 56
+        "Number": 56,
+        "PageId": 21
       },
       "57": {
         "_answerCorrect": "A",
@@ -23005,7 +23395,8 @@
             "_textAnswer": "1,5 m"
           }
         },
-        "Number": 57
+        "Number": 57,
+        "PageId": 21
       },
       "58": {
         "_answerCorrect": "A",
@@ -23051,7 +23442,8 @@
             "_textAnswer": "6000 kg"
           }
         },
-        "Number": 58
+        "Number": 58,
+        "PageId": 21
       },
       "21": {
         "_answerCorrect": "A",
@@ -23117,7 +23509,8 @@
             "_textAnswer": "2 kg ms -1"
           }
         },
-        "Number": 21
+        "Number": 21,
+        "PageId": 21
       },
       "22": {
         "_answerCorrect": "A",
@@ -23181,7 +23574,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 22
+        "Number": 22,
+        "PageId": 22
       }
     }
   },
@@ -23256,7 +23650,8 @@
             "_textAnswer": "Nel settore privato i datori di lavoro, a loro discrezione, possono elargire compensi extra ai dipendenti"
           }
         },
-        "Number": 1
+        "Number": 1,
+        "PageId": 1
       },
       "3": {
         "_answerCorrect": "A",
@@ -23310,7 +23705,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 3
+        "Number": 3,
+        "PageId": 3
       },
       "4": {
         "_answerCorrect": "A",
@@ -23356,7 +23752,8 @@
             "_textAnswer": "Sabato"
           }
         },
-        "Number": 4
+        "Number": 4,
+        "PageId": 4
       },
       "2": {
         "_answerCorrect": "A",
@@ -23418,7 +23815,8 @@
             "_textAnswer": "111 mm"
           }
         },
-        "Number": 2
+        "Number": 2,
+        "PageId": 2
       },
       "6": {
         "_answerCorrect": "A",
@@ -23498,7 +23896,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 6
+        "Number": 6,
+        "PageId": 6
       },
       "8": {
         "_answerCorrect": "A",
@@ -23544,7 +23943,8 @@
             "_textAnswer": "Metropolitan Museum of Art"
           }
         },
-        "Number": 8
+        "Number": 8,
+        "PageId": 8
       },
       "9": {
         "_answerCorrect": "A",
@@ -23586,7 +23986,8 @@
             "_textAnswer": "Un episodio avvenuto in Francia nel 1793 durante il periodo del Terrore"
           }
         },
-        "Number": 9
+        "Number": 9,
+        "PageId": 9
       },
       "11": {
         "_answerCorrect": "A",
@@ -23628,7 +24029,8 @@
             "_textAnswer": "Gioberti"
           }
         },
-        "Number": 11
+        "Number": 11,
+        "PageId": 11
       },
       "12": {
         "_answerCorrect": "A",
@@ -23670,7 +24072,8 @@
             "_textAnswer": "Napoleone Bonaparte rovesciò il Direttorio nel 1799"
           }
         },
-        "Number": 12
+        "Number": 12,
+        "PageId": 12
       },
       "5": {
         "_answerCorrect": "A",
@@ -23716,7 +24119,8 @@
             "_textAnswer": "x = epistemologia   y = biotecnologia"
           }
         },
-        "Number": 5
+        "Number": 5,
+        "PageId": 5
       },
       "7": {
         "_answerCorrect": "A",
@@ -23764,7 +24168,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 7
+        "Number": 7,
+        "PageId": 7
       },
       "21": {
         "_answerCorrect": "A",
@@ -23806,7 +24211,8 @@
             "_textAnswer": "lavorava il bronzo e il marmo"
           }
         },
-        "Number": 21
+        "Number": 21,
+        "PageId": 8
       },
       "22": {
         "_answerCorrect": "A",
@@ -23852,7 +24258,8 @@
             "_textAnswer": "nei paesaggi di Van Gogh"
           }
         },
-        "Number": 22
+        "Number": 22,
+        "PageId": 8
       },
       "23": {
         "_answerCorrect": "A",
@@ -23894,7 +24301,8 @@
             "_textAnswer": "Sia a Roma che nella nostra epoca vi è fiducia nel progresso Test di Cultura Generale"
           }
         },
-        "Number": 23
+        "Number": 23,
+        "PageId": 8
       },
       "24": {
         "_answerCorrect": "A",
@@ -23940,7 +24348,8 @@
             "_textAnswer": "I diritti e doveri dei cittadini in materia di rapporti etico-sociali"
           }
         },
-        "Number": 24
+        "Number": 24,
+        "PageId": 8
       },
       "25": {
         "_answerCorrect": "A",
@@ -23986,7 +24395,8 @@
             "_textAnswer": "Lega araba"
           }
         },
-        "Number": 25
+        "Number": 25,
+        "PageId": 8
       },
       "26": {
         "_answerCorrect": "A",
@@ -24028,7 +24438,8 @@
             "_textAnswer": "Trattato di Roma"
           }
         },
-        "Number": 26
+        "Number": 26,
+        "PageId": 8
       },
       "28": {
         "_answerCorrect": "A",
@@ -24070,7 +24481,8 @@
             "_textAnswer": "Futurista"
           }
         },
-        "Number": 28
+        "Number": 28,
+        "PageId": 9
       },
       "30": {
         "_answerCorrect": "A",
@@ -24112,7 +24524,8 @@
             "_textAnswer": "Viollet-le-Duc, Bernini, Gaudí, Herrera, Bramante"
           }
         },
-        "Number": 30
+        "Number": 30,
+        "PageId": 10
       },
       "31": {
         "_answerCorrect": "A",
@@ -24158,7 +24571,8 @@
             "_textAnswer": "Tolomeo"
           }
         },
-        "Number": 31
+        "Number": 31,
+        "PageId": 10
       },
       "32": {
         "_answerCorrect": "A",
@@ -24200,7 +24614,8 @@
             "_textAnswer": "Alvar Aalto"
           }
         },
-        "Number": 32
+        "Number": 32,
+        "PageId": 10
       },
       "10": {
         "_answerCorrect": "A",
@@ -24242,7 +24657,8 @@
             "_textAnswer": "Aristotele-Socrate-Pitagora-Epicuro-Platone"
           }
         },
-        "Number": 10
+        "Number": 10,
+        "PageId": 10
       },
       "34": {
         "_answerCorrect": "A",
@@ -24284,7 +24700,8 @@
             "_textAnswer": "El Greco"
           }
         },
-        "Number": 34
+        "Number": 34,
+        "PageId": 11
       },
       "36": {
         "_answerCorrect": "A",
@@ -24330,7 +24747,8 @@
             "_textAnswer": "Luigi XV"
           }
         },
-        "Number": 36
+        "Number": 36,
+        "PageId": 12
       },
       "37": {
         "_answerCorrect": "A",
@@ -24376,7 +24794,8 @@
             "_textAnswer": "Lepanto"
           }
         },
-        "Number": 37
+        "Number": 37,
+        "PageId": 12
       },
       "38": {
         "_answerCorrect": "A",
@@ -24418,7 +24837,8 @@
             "_textAnswer": "Maggio 1928"
           }
         },
-        "Number": 38
+        "Number": 38,
+        "PageId": 12
       },
       "39": {
         "_answerCorrect": "A",
@@ -24460,7 +24880,8 @@
             "_textAnswer": "Roy Lichtenstein"
           }
         },
-        "Number": 39
+        "Number": 39,
+        "PageId": 12
       },
       "41": {
         "_answerCorrect": "A",
@@ -24502,7 +24923,8 @@
             "_textAnswer": "b-d-c-e-a Test di Disegno e Rappresentazione"
           }
         },
-        "Number": 41
+        "Number": 41,
+        "PageId": 13
       },
       "13": {
         "_answerCorrect": "A",
@@ -24544,7 +24966,8 @@
             "_textAnswer": "1−Parabola, 2−Iperbole, 3−Cerchio, 4−Ellisse"
           }
         },
-        "Number": 13
+        "Number": 13,
+        "PageId": 13
       },
       "43": {
         "_answerCorrect": "A",
@@ -24590,7 +25013,8 @@
             "_textAnswer": "2, 3 e 5"
           }
         },
-        "Number": 43
+        "Number": 43,
+        "PageId": 14
       },
       "14": {
         "_answerCorrect": "A",
@@ -24636,7 +25060,8 @@
             "_textAnswer": "4"
           }
         },
-        "Number": 14
+        "Number": 14,
+        "PageId": 14
       },
       "45": {
         "_answerCorrect": "A",
@@ -24678,7 +25103,8 @@
             "_textAnswer": "1-a, 2-b, 3-c, 4-d"
           }
         },
-        "Number": 45
+        "Number": 45,
+        "PageId": 15
       },
       "46": {
         "_answerCorrect": "A",
@@ -24732,7 +25158,8 @@
             "_textAnswer": "2"
           }
         },
-        "Number": 46
+        "Number": 46,
+        "PageId": 15
       },
       "15": {
         "_answerCorrect": "A",
@@ -24774,7 +25201,8 @@
             "_textAnswer": "Sezione a - 4; Sezione b - 2; Sezione c - 3; Sezione d - 1"
           }
         },
-        "Number": 15
+        "Number": 15,
+        "PageId": 15
       },
       "48": {
         "_answerCorrect": "A",
@@ -24820,7 +25248,8 @@
             "_textAnswer": "Z"
           }
         },
-        "Number": 48
+        "Number": 48,
+        "PageId": 16
       },
       "49": {
         "_answerCorrect": "A",
@@ -24862,7 +25291,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 49
+        "Number": 49,
+        "PageId": 16
       },
       "16": {
         "_answerCorrect": "A",
@@ -24904,7 +25334,8 @@
             "_textAnswer": "a-5, b-6, c-2"
           }
         },
-        "Number": 16
+        "Number": 16,
+        "PageId": 16
       },
       "51": {
         "_answerCorrect": "A",
@@ -24946,7 +25377,8 @@
             "_textAnswer": "1-a, 2-d, 3-f, 4-c, 5-g, 6-b, 7-e Test di Fisica e Matematica"
           }
         },
-        "Number": 51
+        "Number": 51,
+        "PageId": 17
       },
       "52": {
         "_answerCorrect": "A",
@@ -24992,7 +25424,8 @@
             "_textAnswer": "8"
           }
         },
-        "Number": 52
+        "Number": 52,
+        "PageId": 17
       },
       "53": {
         "_answerCorrect": "A",
@@ -25034,7 +25467,8 @@
             "_textAnswer": "2y = 3x + 4"
           }
         },
-        "Number": 53
+        "Number": 53,
+        "PageId": 17
       },
       "17": {
         "_answerCorrect": "A",
@@ -25088,7 +25522,8 @@
             "_textAnswer": "35"
           }
         },
-        "Number": 17
+        "Number": 17,
+        "PageId": 17
       },
       "55": {
         "_answerCorrect": "A",
@@ -25130,7 +25565,8 @@
             "_textAnswer": "16"
           }
         },
-        "Number": 55
+        "Number": 55,
+        "PageId": 18
       },
       "56": {
         "_answerCorrect": "A",
@@ -25176,7 +25612,8 @@
             "_textAnswer": "6"
           }
         },
-        "Number": 56
+        "Number": 56,
+        "PageId": 18
       },
       "57": {
         "_answerCorrect": "A",
@@ -25246,7 +25683,8 @@
             "_textAnswer": "Solo 2, 3 e 4"
           }
         },
-        "Number": 57
+        "Number": 57,
+        "PageId": 18
       },
       "18": {
         "_answerCorrect": "A",
@@ -25300,7 +25738,8 @@
             "_textAnswer": "50 °C"
           }
         },
-        "Number": 18
+        "Number": 18,
+        "PageId": 18
       },
       "59": {
         "_answerCorrect": "A",
@@ -25350,7 +25789,8 @@
             "_textAnswer": "38 m"
           }
         },
-        "Number": 59
+        "Number": 59,
+        "PageId": 19
       },
       "19": {
         "_answerCorrect": "A",
@@ -25406,7 +25846,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 19
+        "Number": 19,
+        "PageId": 19
       }
     }
   },
@@ -25457,7 +25898,8 @@
             "_textAnswer": "{13, 17, 3, 8, 9, 5}; {7, 1, 2, 11, 12, 4}; {10, 18, 6, 14, 15, 16}"
           }
         },
-        "Number": 1
+        "Number": 1,
+        "PageId": 1
       },
       "5": {
         "_answerCorrect": "A",
@@ -25515,7 +25957,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 5
+        "Number": 5,
+        "PageId": 5
       },
       "6": {
         "_answerCorrect": "A",
@@ -25561,7 +26004,8 @@
             "_textAnswer": "sono le uniche due città romane di cui ci sia giunta traccia"
           }
         },
-        "Number": 6
+        "Number": 6,
+        "PageId": 6
       },
       "2": {
         "_answerCorrect": "A",
@@ -25607,7 +26051,8 @@
             "_textAnswer": "4"
           }
         },
-        "Number": 2
+        "Number": 2,
+        "PageId": 2
       },
       "3": {
         "_answerCorrect": "A",
@@ -25661,7 +26106,8 @@
             "_textAnswer": "63"
           }
         },
-        "Number": 3
+        "Number": 3,
+        "PageId": 3
       },
       "9": {
         "_answerCorrect": "A",
@@ -25703,7 +26149,8 @@
             "_textAnswer": "a San Gregorio, Messina, di Filippo Juvarra"
           }
         },
-        "Number": 9
+        "Number": 9,
+        "PageId": 9
       },
       "4": {
         "_answerCorrect": "A",
@@ -25745,7 +26192,8 @@
             "_textAnswer": "36"
           }
         },
-        "Number": 4
+        "Number": 4,
+        "PageId": 4
       },
       "15": {
         "_answerCorrect": "A",
@@ -25787,7 +26235,8 @@
             "_textAnswer": "e-e'"
           }
         },
-        "Number": 15
+        "Number": 15,
+        "PageId": 15
       },
       "17": {
         "_answerCorrect": "A",
@@ -25829,7 +26278,8 @@
             "_textAnswer": "4"
           }
         },
-        "Number": 17
+        "Number": 17,
+        "PageId": 17
       },
       "18": {
         "_answerCorrect": "A",
@@ -25875,7 +26325,8 @@
             "_textAnswer": "10 J"
           }
         },
-        "Number": 18
+        "Number": 18,
+        "PageId": 18
       },
       "19": {
         "_answerCorrect": "A",
@@ -25917,7 +26368,8 @@
             "_textAnswer": "interseca l’asse y nel punto di ordinata y = 2"
           }
         },
-        "Number": 19
+        "Number": 19,
+        "PageId": 19
       },
       "20": {
         "_answerCorrect": "A",
@@ -25973,7 +26425,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 20
+        "Number": 20,
+        "PageId": 20
       },
       "21": {
         "_answerCorrect": "A",
@@ -26023,7 +26476,8 @@
             "_textAnswer": "Decadentismo"
           }
         },
-        "Number": 21
+        "Number": 21,
+        "PageId": 7
       },
       "7": {
         "_answerCorrect": "A",
@@ -26065,7 +26519,8 @@
             "_textAnswer": "Roma"
           }
         },
-        "Number": 7
+        "Number": 7,
+        "PageId": 7
       },
       "23": {
         "_answerCorrect": "A",
@@ -26107,7 +26562,8 @@
             "_textAnswer": "Il mosaico che raffigura il miracolo di San Francesco e del roseto senza spine"
           }
         },
-        "Number": 23
+        "Number": 23,
+        "PageId": 8
       },
       "24": {
         "_answerCorrect": "A",
@@ -26153,7 +26609,8 @@
             "_textAnswer": "Prado – Madrid"
           }
         },
-        "Number": 24
+        "Number": 24,
+        "PageId": 8
       },
       "25": {
         "_answerCorrect": "A",
@@ -26195,7 +26652,8 @@
             "_textAnswer": "Neoclassicismo, Impressionismo, Pop Art, Espressionismo"
           }
         },
-        "Number": 25
+        "Number": 25,
+        "PageId": 8
       },
       "26": {
         "_answerCorrect": "A",
@@ -26237,7 +26695,8 @@
             "_textAnswer": "Il biennio rosso"
           }
         },
-        "Number": 26
+        "Number": 26,
+        "PageId": 8
       },
       "27": {
         "_answerCorrect": "A",
@@ -26279,7 +26738,8 @@
             "_textAnswer": "Nello scontro tra lo Stato italiano e la Jugoslavia di Tito, relativo alla persecuzione degli italiani in Istria e Dalmazia"
           }
         },
-        "Number": 27
+        "Number": 27,
+        "PageId": 8
       },
       "28": {
         "_answerCorrect": "A",
@@ -26321,7 +26781,8 @@
             "_textAnswer": "Nel 1938"
           }
         },
-        "Number": 28
+        "Number": 28,
+        "PageId": 8
       },
       "8": {
         "_answerCorrect": "A",
@@ -26363,7 +26824,8 @@
             "_textAnswer": "Barocco"
           }
         },
-        "Number": 8
+        "Number": 8,
+        "PageId": 8
       },
       "30": {
         "_answerCorrect": "A",
@@ -26405,7 +26867,8 @@
             "_textAnswer": "Adriano"
           }
         },
-        "Number": 30
+        "Number": 30,
+        "PageId": 9
       },
       "32": {
         "_answerCorrect": "A",
@@ -26447,7 +26910,8 @@
             "_textAnswer": "Charles Garnier"
           }
         },
-        "Number": 32
+        "Number": 32,
+        "PageId": 10
       },
       "10": {
         "_answerCorrect": "A",
@@ -26489,7 +26953,8 @@
             "_textAnswer": "vela"
           }
         },
-        "Number": 10
+        "Number": 10,
+        "PageId": 10
       },
       "34": {
         "_answerCorrect": "A",
@@ -26531,7 +26996,8 @@
             "_textAnswer": "Egon Schiele, \"Gli amanti\", 1917"
           }
         },
-        "Number": 34
+        "Number": 34,
+        "PageId": 11
       },
       "11": {
         "_answerCorrect": "A",
@@ -26573,7 +27039,8 @@
             "_textAnswer": "Bernardo Bellotto"
           }
         },
-        "Number": 11
+        "Number": 11,
+        "PageId": 11
       },
       "36": {
         "_answerCorrect": "A",
@@ -26615,7 +27082,8 @@
             "_textAnswer": "Fernand Léger"
           }
         },
-        "Number": 36
+        "Number": 36,
+        "PageId": 12
       },
       "12": {
         "_answerCorrect": "A",
@@ -26657,7 +27125,8 @@
             "_textAnswer": "Dedalo"
           }
         },
-        "Number": 12
+        "Number": 12,
+        "PageId": 12
       },
       "38": {
         "_answerCorrect": "A",
@@ -26703,7 +27172,8 @@
             "_textAnswer": "a-2; b-3; c-5; d-1; e-4 Test di Disegno e Rappresentazione"
           }
         },
-        "Number": 38
+        "Number": 38,
+        "PageId": 13
       },
       "39": {
         "_answerCorrect": "A",
@@ -26745,7 +27215,8 @@
             "_textAnswer": "Un foglio di dimensioni A0 è pari a quattro A2"
           }
         },
-        "Number": 39
+        "Number": 39,
+        "PageId": 13
       },
       "13": {
         "_answerCorrect": "A",
@@ -26799,7 +27270,8 @@
             "_textAnswer": "1–c; 2–a; 3–b"
           }
         },
-        "Number": 13
+        "Number": 13,
+        "PageId": 13
       },
       "41": {
         "_answerCorrect": "A",
@@ -26841,7 +27313,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 41
+        "Number": 41,
+        "PageId": 14
       },
       "14": {
         "_answerCorrect": "A",
@@ -26883,7 +27356,8 @@
             "_textAnswer": "7"
           }
         },
-        "Number": 14
+        "Number": 14,
+        "PageId": 14
       },
       "43": {
         "_answerCorrect": "A",
@@ -26925,7 +27399,8 @@
             "_textAnswer": "1-AA; 2-BB; 3-CC;"
           }
         },
-        "Number": 43
+        "Number": 43,
+        "PageId": 15
       },
       "45": {
         "_answerCorrect": "A",
@@ -26967,7 +27442,8 @@
             "_textAnswer": "A-4; B-2; C-5; D-3; E-4"
           }
         },
-        "Number": 45
+        "Number": 45,
+        "PageId": 16
       },
       "16": {
         "_answerCorrect": "A",
@@ -27009,7 +27485,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 16
+        "Number": 16,
+        "PageId": 16
       },
       "48": {
         "_answerCorrect": "A",
@@ -27055,7 +27532,8 @@
             "_textAnswer": "1 - Edificio di culto; 2 - Carcere; 3 - Teatro; 4 - Residenza Test di Fisica e Matematica"
           }
         },
-        "Number": 48
+        "Number": 48,
+        "PageId": 18
       },
       "49": {
         "_answerCorrect": "A",
@@ -27101,7 +27579,8 @@
             "_textAnswer": "4,8 · 10 C –6"
           }
         },
-        "Number": 49
+        "Number": 49,
+        "PageId": 18
       },
       "50": {
         "_answerCorrect": "A",
@@ -27143,7 +27622,8 @@
             "_textAnswer": "3,14 m/s 2"
           }
         },
-        "Number": 50
+        "Number": 50,
+        "PageId": 18
       },
       "52": {
         "_answerCorrect": "A",
@@ -27189,7 +27669,8 @@
             "_textAnswer": "si dimezza"
           }
         },
-        "Number": 52
+        "Number": 52,
+        "PageId": 19
       },
       "53": {
         "_answerCorrect": "A",
@@ -27235,7 +27716,8 @@
             "_textAnswer": "200 km/h"
           }
         },
-        "Number": 53
+        "Number": 53,
+        "PageId": 19
       },
       "54": {
         "_answerCorrect": "A",
@@ -27289,7 +27771,8 @@
             "_textAnswer": "Aggiungere, al peso agganciato a destra, un ulteriore peso di 4 kg"
           }
         },
-        "Number": 54
+        "Number": 54,
+        "PageId": 19
       },
       "55": {
         "_answerCorrect": "A",
@@ -27331,7 +27814,8 @@
             "_textAnswer": "0 < x < 1 oppure x > 2"
           }
         },
-        "Number": 55
+        "Number": 55,
+        "PageId": 19
       },
       "56": {
         "_answerCorrect": "A",
@@ -27381,7 +27865,8 @@
             "_textAnswer": "2/5 2"
           }
         },
-        "Number": 56
+        "Number": 56,
+        "PageId": 19
       },
       "58": {
         "_answerCorrect": "A",
@@ -27427,7 +27912,8 @@
             "_textAnswer": "Q = q"
           }
         },
-        "Number": 58
+        "Number": 58,
+        "PageId": 20
       },
       "59": {
         "_answerCorrect": "A",
@@ -27473,7 +27959,8 @@
             "_textAnswer": "177 cm"
           }
         },
-        "Number": 59
+        "Number": 59,
+        "PageId": 20
       }
     }
   },
@@ -27524,7 +28011,8 @@
             "_textAnswer": "X = palla  Y = cucina"
           }
         },
-        "Number": 1
+        "Number": 1,
+        "PageId": 1
       },
       "2": {
         "_answerCorrect": "A",
@@ -27570,7 +28058,8 @@
             "_textAnswer": "Tessera 5"
           }
         },
-        "Number": 2
+        "Number": 2,
+        "PageId": 2
       },
       "3": {
         "_answerCorrect": "A",
@@ -27616,7 +28105,8 @@
             "_textAnswer": "Triangoli 2 e 3"
           }
         },
-        "Number": 3
+        "Number": 3,
+        "PageId": 3
       },
       "4": {
         "_answerCorrect": "A",
@@ -27658,7 +28148,8 @@
             "_textAnswer": "si rivelò determinante per Raffaello Sanzio perché, mentre la consegnava, poté assistere alla realizzazione dell'affresco della “Battaglia di Anghiari”"
           }
         },
-        "Number": 4
+        "Number": 4,
+        "PageId": 4
       },
       "5": {
         "_answerCorrect": "A",
@@ -27700,7 +28191,8 @@
             "_textAnswer": "è completata da Michelangelo"
           }
         },
-        "Number": 5
+        "Number": 5,
+        "PageId": 5
       },
       "6": {
         "_answerCorrect": "A",
@@ -27746,7 +28238,8 @@
             "_textAnswer": "spagnole al comando di Francisco Franco"
           }
         },
-        "Number": 6
+        "Number": 6,
+        "PageId": 6
       },
       "7": {
         "_answerCorrect": "A",
@@ -27800,7 +28293,8 @@
             "_textAnswer": "“Pietà” di Antonello Gagini"
           }
         },
-        "Number": 7
+        "Number": 7,
+        "PageId": 7
       },
       "8": {
         "_answerCorrect": "A",
@@ -27842,7 +28336,8 @@
             "_textAnswer": "Alessandro Algardi"
           }
         },
-        "Number": 8
+        "Number": 8,
+        "PageId": 8
       },
       "9": {
         "_answerCorrect": "A",
@@ -27884,7 +28379,8 @@
             "_textAnswer": "Gotico"
           }
         },
-        "Number": 9
+        "Number": 9,
+        "PageId": 9
       },
       "10": {
         "_answerCorrect": "A",
@@ -27926,7 +28422,8 @@
             "_textAnswer": "René Magritte"
           }
         },
-        "Number": 10
+        "Number": 10,
+        "PageId": 10
       },
       "11": {
         "_answerCorrect": "A",
@@ -27968,7 +28465,8 @@
             "_textAnswer": "Barocco"
           }
         },
-        "Number": 11
+        "Number": 11,
+        "PageId": 11
       },
       "38": {
         "_answerCorrect": "A",
@@ -28010,7 +28508,8 @@
             "_textAnswer": "Alvar Aalto Test di Disegno e Rappresentazione"
           }
         },
-        "Number": 38
+        "Number": 38,
+        "PageId": 12
       },
       "12": {
         "_answerCorrect": "A",
@@ -28052,7 +28551,8 @@
             "_textAnswer": "2"
           }
         },
-        "Number": 12
+        "Number": 12,
+        "PageId": 12
       },
       "40": {
         "_answerCorrect": "A",
@@ -28102,7 +28602,8 @@
             "_textAnswer": "1C, 2A, 3B"
           }
         },
-        "Number": 40
+        "Number": 40,
+        "PageId": 13
       },
       "13": {
         "_answerCorrect": "A",
@@ -28144,7 +28645,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 13
+        "Number": 13,
+        "PageId": 13
       },
       "14": {
         "_answerCorrect": "A",
@@ -28190,7 +28692,8 @@
             "_textAnswer": "1a, 2c, 3d, 4e, 5b"
           }
         },
-        "Number": 14
+        "Number": 14,
+        "PageId": 14
       },
       "15": {
         "_answerCorrect": "A",
@@ -28236,7 +28739,8 @@
             "_textAnswer": "1b, 2a, 3d, 4c, 5e"
           }
         },
-        "Number": 15
+        "Number": 15,
+        "PageId": 15
       },
       "16": {
         "_answerCorrect": "A",
@@ -28282,7 +28786,8 @@
             "_textAnswer": "1a, 2d, 3b, 4e, 5c"
           }
         },
-        "Number": 16
+        "Number": 16,
+        "PageId": 16
       },
       "17": {
         "_answerCorrect": "A",
@@ -28328,7 +28833,8 @@
             "_textAnswer": "360 kg · m/s"
           }
         },
-        "Number": 17
+        "Number": 17,
+        "PageId": 17
       },
       "18": {
         "_answerCorrect": "A",
@@ -28376,7 +28882,8 @@
             "_textAnswer": "/(1 – 2x) > 0 è soddisfatta per:"
           }
         },
-        "Number": 18
+        "Number": 18,
+        "PageId": 18
       },
       "59": {
         "_answerCorrect": "A",
@@ -28418,13 +28925,15 @@
             "_textAnswer": "24 cm ********** FINE DELLE DOMANDE **********"
           }
         },
-        "Number": 59
+        "Number": 59,
+        "PageId": 19
       },
       "19": {
         "_answerCorrect": null,
         "_questionText": null,
         "Answers": {},
-        "Number": 19
+        "Number": 19,
+        "PageId": 19
       }
     }
   },
@@ -28475,7 +28984,8 @@
             "_textAnswer": "100"
           }
         },
-        "Number": 1
+        "Number": 1,
+        "PageId": 1
       },
       "5": {
         "_answerCorrect": "A",
@@ -28517,7 +29027,8 @@
             "_textAnswer": "ritiene che l’oro sia idoneo a valorizzare la tridimensionalità degli oggetti rappresentati"
           }
         },
-        "Number": 5
+        "Number": 5,
+        "PageId": 5
       },
       "2": {
         "_answerCorrect": "A",
@@ -28603,7 +29114,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 2
+        "Number": 2,
+        "PageId": 2
       },
       "7": {
         "_answerCorrect": "A",
@@ -28645,7 +29157,8 @@
             "_textAnswer": "576"
           }
         },
-        "Number": 7
+        "Number": 7,
+        "PageId": 7
       },
       "8": {
         "_answerCorrect": "A",
@@ -28687,7 +29200,8 @@
             "_textAnswer": "A croce di Lorena"
           }
         },
-        "Number": 8
+        "Number": 8,
+        "PageId": 8
       },
       "9": {
         "_answerCorrect": "A",
@@ -28733,7 +29247,8 @@
             "_textAnswer": "1913"
           }
         },
-        "Number": 9
+        "Number": 9,
+        "PageId": 9
       },
       "10": {
         "_answerCorrect": "A",
@@ -28775,7 +29290,8 @@
             "_textAnswer": "Cimabue"
           }
         },
-        "Number": 10
+        "Number": 10,
+        "PageId": 10
       },
       "3": {
         "_answerCorrect": "A",
@@ -28841,7 +29357,8 @@
             "_textAnswer": "S 13 e S"
           }
         },
-        "Number": 3
+        "Number": 3,
+        "PageId": 3
       },
       "12": {
         "_answerCorrect": "A",
@@ -28907,7 +29424,8 @@
             "_textAnswer": "1D, 2C, 3B, 4E, 5A"
           }
         },
-        "Number": 12
+        "Number": 12,
+        "PageId": 12
       },
       "13": {
         "_answerCorrect": "A",
@@ -28953,7 +29471,8 @@
             "_textAnswer": "2e, 4a, 5d, 3c, 1b"
           }
         },
-        "Number": 13
+        "Number": 13,
+        "PageId": 13
       },
       "14": {
         "_answerCorrect": "A",
@@ -28999,7 +29518,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 14
+        "Number": 14,
+        "PageId": 14
       },
       "4": {
         "_answerCorrect": "A",
@@ -29045,7 +29565,8 @@
             "_textAnswer": "25%"
           }
         },
-        "Number": 4
+        "Number": 4,
+        "PageId": 4
       },
       "16": {
         "_answerCorrect": "A",
@@ -29091,7 +29612,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 16
+        "Number": 16,
+        "PageId": 16
       },
       "18": {
         "_answerCorrect": "A",
@@ -29133,7 +29655,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 18
+        "Number": 18,
+        "PageId": 18
       },
       "19": {
         "_answerCorrect": "A",
@@ -29175,7 +29698,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 19
+        "Number": 19,
+        "PageId": 19
       },
       "20": {
         "_answerCorrect": "A",
@@ -29221,7 +29745,8 @@
             "_textAnswer": "1d, 5a, 4c, 3e, 2b"
           }
         },
-        "Number": 20
+        "Number": 20,
+        "PageId": 20
       },
       "21": {
         "_answerCorrect": "A",
@@ -29271,7 +29796,8 @@
             "_textAnswer": "40°"
           }
         },
-        "Number": 21
+        "Number": 21,
+        "PageId": 21
       },
       "22": {
         "_answerCorrect": "A",
@@ -29317,7 +29843,8 @@
             "_textAnswer": "40"
           }
         },
-        "Number": 22
+        "Number": 22,
+        "PageId": 22
       },
       "6": {
         "_answerCorrect": "A",
@@ -29359,7 +29886,8 @@
             "_textAnswer": "La croce rossa denunciò il genocidio degli ebrei"
           }
         },
-        "Number": 6
+        "Number": 6,
+        "PageId": 6
       },
       "24": {
         "_answerCorrect": "A",
@@ -29401,7 +29929,8 @@
             "_textAnswer": "Federico Barbarossa, Giustiniano, Carlo Magno, Lorenzo il Magnifico, Carlo V"
           }
         },
-        "Number": 24
+        "Number": 24,
+        "PageId": 7
       },
       "25": {
         "_answerCorrect": "A",
@@ -29443,7 +29972,8 @@
             "_textAnswer": "Russia"
           }
         },
-        "Number": 25
+        "Number": 25,
+        "PageId": 7
       },
       "26": {
         "_answerCorrect": "A",
@@ -29485,7 +30015,8 @@
             "_textAnswer": "Bullow"
           }
         },
-        "Number": 26
+        "Number": 26,
+        "PageId": 7
       },
       "27": {
         "_answerCorrect": "A",
@@ -29527,7 +30058,8 @@
             "_textAnswer": "Stalin, Ribbentropp, Churchill"
           }
         },
-        "Number": 27
+        "Number": 27,
+        "PageId": 7
       },
       "29": {
         "_answerCorrect": "A",
@@ -29573,7 +30105,8 @@
             "_textAnswer": "Sezione aurea"
           }
         },
-        "Number": 29
+        "Number": 29,
+        "PageId": 8
       },
       "30": {
         "_answerCorrect": "A",
@@ -29615,7 +30148,8 @@
             "_textAnswer": "Rastremazione"
           }
         },
-        "Number": 30
+        "Number": 30,
+        "PageId": 8
       },
       "32": {
         "_answerCorrect": "A",
@@ -29657,7 +30191,8 @@
             "_textAnswer": "Giuliano da Sangallo"
           }
         },
-        "Number": 32
+        "Number": 32,
+        "PageId": 9
       },
       "34": {
         "_answerCorrect": "A",
@@ -29699,7 +30234,8 @@
             "_textAnswer": "Razionalismo"
           }
         },
-        "Number": 34
+        "Number": 34,
+        "PageId": 10
       },
       "35": {
         "_answerCorrect": "A",
@@ -29741,7 +30277,8 @@
             "_textAnswer": "Magritte"
           }
         },
-        "Number": 35
+        "Number": 35,
+        "PageId": 10
       },
       "37": {
         "_answerCorrect": "A",
@@ -29787,7 +30324,8 @@
             "_textAnswer": "Andrea del Verrocchio"
           }
         },
-        "Number": 37
+        "Number": 37,
+        "PageId": 11
       },
       "38": {
         "_answerCorrect": "A",
@@ -29829,7 +30367,8 @@
             "_textAnswer": "Frank Lloyd Wright Test di Disegno e Rappresentazione"
           }
         },
-        "Number": 38
+        "Number": 38,
+        "PageId": 11
       },
       "11": {
         "_answerCorrect": "A",
@@ -29871,7 +30410,8 @@
             "_textAnswer": "1D, 2A, 3E, 4B, 5C"
           }
         },
-        "Number": 11
+        "Number": 11,
+        "PageId": 11
       },
       "15": {
         "_answerCorrect": "A",
@@ -29917,7 +30457,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 15
+        "Number": 15,
+        "PageId": 15
       },
       "17": {
         "_answerCorrect": "A",
@@ -29963,7 +30504,8 @@
             "_textAnswer": "3"
           }
         },
-        "Number": 17
+        "Number": 17,
+        "PageId": 17
       },
       "49": {
         "_answerCorrect": "A",
@@ -30009,7 +30551,8 @@
             "_textAnswer": "triplica"
           }
         },
-        "Number": 49
+        "Number": 49,
+        "PageId": 21
       },
       "50": {
         "_answerCorrect": "A",
@@ -30067,7 +30610,8 @@
             "_textAnswer": "1,275 m"
           }
         },
-        "Number": 50
+        "Number": 50,
+        "PageId": 21
       },
       "51": {
         "_answerCorrect": "A",
@@ -30113,7 +30657,8 @@
             "_textAnswer": "30 m"
           }
         },
-        "Number": 51
+        "Number": 51,
+        "PageId": 21
       },
       "52": {
         "_answerCorrect": "A",
@@ -30163,7 +30708,8 @@
             "_textAnswer": "3q"
           }
         },
-        "Number": 52
+        "Number": 52,
+        "PageId": 21
       },
       "54": {
         "_answerCorrect": "A",
@@ -30213,7 +30759,8 @@
             "_textAnswer": "100 cm 32xx−<"
           }
         },
-        "Number": 54
+        "Number": 54,
+        "PageId": 22
       },
       "55": {
         "_answerCorrect": "A",
@@ -30255,7 +30802,8 @@
             "_textAnswer": " 3 2 x≤"
           }
         },
-        "Number": 55
+        "Number": 55,
+        "PageId": 22
       },
       "56": {
         "_answerCorrect": "A",
@@ -30305,7 +30853,8 @@
             "_textAnswer": "3/16 543"
           }
         },
-        "Number": 56
+        "Number": 56,
+        "PageId": 22
       },
       "57": {
         "_answerCorrect": "A",
@@ -30355,7 +30904,8 @@
             "_textAnswer": "log 9 14"
           }
         },
-        "Number": 57
+        "Number": 57,
+        "PageId": 22
       },
       "58": {
         "_answerCorrect": "A",
@@ -30401,7 +30951,8 @@
             "_textAnswer": "equiangolo"
           }
         },
-        "Number": 58
+        "Number": 58,
+        "PageId": 22
       },
       "23": {
         "_answerCorrect": "A",
@@ -30453,7 +31004,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 23
+        "Number": 23,
+        "PageId": 23
       }
     }
   },
@@ -30500,7 +31052,8 @@
             "_textAnswer": "Una chiesa"
           }
         },
-        "Number": 1
+        "Number": 1,
+        "PageId": 2
       },
       "7": {
         "_answerCorrect": "A",
@@ -30542,7 +31095,8 @@
             "_textAnswer": "Giuseppe Piermarini"
           }
         },
-        "Number": 7
+        "Number": 7,
+        "PageId": 8
       },
       "8": {
         "_answerCorrect": "A",
@@ -30584,7 +31138,8 @@
             "_textAnswer": "Acroterio"
           }
         },
-        "Number": 8
+        "Number": 8,
+        "PageId": 9
       },
       "9": {
         "_answerCorrect": "A",
@@ -30626,7 +31181,8 @@
             "_textAnswer": "rinascimentale"
           }
         },
-        "Number": 9
+        "Number": 9,
+        "PageId": 10
       },
       "10": {
         "_answerCorrect": "A",
@@ -30672,7 +31228,8 @@
             "_textAnswer": "1-d; 2-c; 3-a; 4-e; 5-b;"
           }
         },
-        "Number": 10
+        "Number": 10,
+        "PageId": 11
       },
       "11": {
         "_answerCorrect": "A",
@@ -30718,7 +31275,8 @@
             "_textAnswer": "e"
           }
         },
-        "Number": 11
+        "Number": 11,
+        "PageId": 12
       },
       "12": {
         "_answerCorrect": "A",
@@ -30760,7 +31318,8 @@
             "_textAnswer": "1- ellisse, 2-circonferenza, 3-parabola, 4-iperbole"
           }
         },
-        "Number": 12
+        "Number": 12,
+        "PageId": 13
       },
       "2": {
         "_answerCorrect": "A",
@@ -30802,7 +31361,8 @@
             "_textAnswer": "Liscio – fluido"
           }
         },
-        "Number": 2
+        "Number": 2,
+        "PageId": 3
       },
       "14": {
         "_answerCorrect": "A",
@@ -30848,7 +31408,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 14
+        "Number": 14,
+        "PageId": 15
       },
       "15": {
         "_answerCorrect": "A",
@@ -30890,7 +31451,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 15
+        "Number": 15,
+        "PageId": 16
       },
       "16": {
         "_answerCorrect": "A",
@@ -30948,7 +31510,8 @@
             "_textAnswer": "πr"
           }
         },
-        "Number": 16
+        "Number": 16,
+        "PageId": 17
       },
       "17": {
         "_answerCorrect": "A",
@@ -30990,7 +31553,8 @@
             "_textAnswer": "L’equazione non ammette soluzioni nell’intervallo assegnato"
           }
         },
-        "Number": 17
+        "Number": 17,
+        "PageId": 18
       },
       "3": {
         "_answerCorrect": "A",
@@ -31044,7 +31608,8 @@
             "_textAnswer": "1"
           }
         },
-        "Number": 3
+        "Number": 3,
+        "PageId": 4
       },
       "19": {
         "_answerCorrect": "A",
@@ -31096,7 +31661,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 19
+        "Number": 19,
+        "PageId": 20
       },
       "4": {
         "_answerCorrect": "A",
@@ -31170,7 +31736,8 @@
             "_textAnswer": ""
           }
         },
-        "Number": 4
+        "Number": 4,
+        "PageId": 5
       },
       "5": {
         "_answerCorrect": "A",
@@ -31268,7 +31835,8 @@
             "_textAnswer": "Nessuna"
           }
         },
-        "Number": 5
+        "Number": 5,
+        "PageId": 6
       },
       "22": {
         "_answerCorrect": "A",
@@ -31354,7 +31922,8 @@
             "_textAnswer": "Solo P 3 Test di Storia"
           }
         },
-        "Number": 22
+        "Number": 22,
+        "PageId": 7
       },
       "23": {
         "_answerCorrect": "A",
@@ -31416,7 +31985,8 @@
             "_textAnswer": "d-c-e-b-a"
           }
         },
-        "Number": 23
+        "Number": 23,
+        "PageId": 7
       },
       "24": {
         "_answerCorrect": "A",
@@ -31478,7 +32048,8 @@
             "_textAnswer": "c-a-b-e-d"
           }
         },
-        "Number": 24
+        "Number": 24,
+        "PageId": 7
       },
       "25": {
         "_answerCorrect": "A",
@@ -31520,7 +32091,8 @@
             "_textAnswer": "1890"
           }
         },
-        "Number": 25
+        "Number": 25,
+        "PageId": 7
       },
       "6": {
         "_answerCorrect": "A",
@@ -31562,7 +32134,8 @@
             "_textAnswer": "Antonio Gramsci"
           }
         },
-        "Number": 6
+        "Number": 6,
+        "PageId": 7
       },
       "27": {
         "_answerCorrect": "A",
@@ -31608,7 +32181,8 @@
             "_textAnswer": "Klemens von Metternich"
           }
         },
-        "Number": 27
+        "Number": 27,
+        "PageId": 8
       },
       "28": {
         "_answerCorrect": "A",
@@ -31650,7 +32224,8 @@
             "_textAnswer": "6 ottobre 1973"
           }
         },
-        "Number": 28
+        "Number": 28,
+        "PageId": 8
       },
       "29": {
         "_answerCorrect": "A",
@@ -31696,7 +32271,8 @@
             "_textAnswer": "Peristilio"
           }
         },
-        "Number": 29
+        "Number": 29,
+        "PageId": 8
       },
       "30": {
         "_answerCorrect": "A",
@@ -31738,7 +32314,8 @@
             "_textAnswer": "Classico"
           }
         },
-        "Number": 30
+        "Number": 30,
+        "PageId": 8
       },
       "31": {
         "_answerCorrect": "A",
@@ -31800,7 +32377,8 @@
             "_textAnswer": "a-b-c-d-e"
           }
         },
-        "Number": 31
+        "Number": 31,
+        "PageId": 8
       },
       "33": {
         "_answerCorrect": "A",
@@ -31842,7 +32420,8 @@
             "_textAnswer": "etruschi"
           }
         },
-        "Number": 33
+        "Number": 33,
+        "PageId": 9
       },
       "34": {
         "_answerCorrect": "A",
@@ -31884,7 +32463,8 @@
             "_textAnswer": "Eugène Viollet-le-Duc"
           }
         },
-        "Number": 34
+        "Number": 34,
+        "PageId": 9
       },
       "35": {
         "_answerCorrect": "A",
@@ -31926,7 +32506,8 @@
             "_textAnswer": "Renzo Piano"
           }
         },
-        "Number": 35
+        "Number": 35,
+        "PageId": 9
       },
       "36": {
         "_answerCorrect": "A",
@@ -31968,7 +32549,8 @@
             "_textAnswer": "Peristalsi"
           }
         },
-        "Number": 36
+        "Number": 36,
+        "PageId": 9
       },
       "41": {
         "_answerCorrect": "A",
@@ -32014,7 +32596,8 @@
             "_textAnswer": "e"
           }
         },
-        "Number": 41
+        "Number": 41,
+        "PageId": 13
       },
       "43": {
         "_answerCorrect": "A",
@@ -32060,7 +32643,8 @@
             "_textAnswer": "5"
           }
         },
-        "Number": 43
+        "Number": 43,
+        "PageId": 14
       },
       "13": {
         "_answerCorrect": "A",
@@ -32102,7 +32686,8 @@
             "_textAnswer": "1-c, 2-d, 3-a, 4-b, 5-e"
           }
         },
-        "Number": 13
+        "Number": 13,
+        "PageId": 14
       },
       "46": {
         "_answerCorrect": "A",
@@ -32148,7 +32733,8 @@
             "_textAnswer": "e"
           }
         },
-        "Number": 46
+        "Number": 46,
+        "PageId": 16
       },
       "48": {
         "_answerCorrect": "A",
@@ -32194,7 +32780,8 @@
             "_textAnswer": "1-d; 2-e; 3-a;4-b;5-c Test di Fisica e Matematica"
           }
         },
-        "Number": 48
+        "Number": 48,
+        "PageId": 17
       },
       "50": {
         "_answerCorrect": "A",
@@ -32292,7 +32879,8 @@
             "_textAnswer": "Nessuna coppia 3"
           }
         },
-        "Number": 50
+        "Number": 50,
+        "PageId": 18
       },
       "51": {
         "_answerCorrect": "A",
@@ -32342,7 +32930,8 @@
             "_textAnswer": "Non ci sono soluzioni reali"
           }
         },
-        "Number": 51
+        "Number": 51,
+        "PageId": 18
       },
       "53": {
         "_answerCorrect": "A",
@@ -32384,7 +32973,8 @@
             "_textAnswer": " ex−<"
           }
         },
-        "Number": 53
+        "Number": 53,
+        "PageId": 19
       },
       "54": {
         "_answerCorrect": "A",
@@ -32430,7 +33020,8 @@
             "_textAnswer": "La seconda e la terza retta intersecano entrambe il semiasse negativo delle y"
           }
         },
-        "Number": 54
+        "Number": 54,
+        "PageId": 19
       },
       "55": {
         "_answerCorrect": "A",
@@ -32472,7 +33063,8 @@
             "_textAnswer": "I vettori forza e accelerazione hanno sempre verso opposto"
           }
         },
-        "Number": 55
+        "Number": 55,
+        "PageId": 19
       },
       "56": {
         "_answerCorrect": "A",
@@ -32550,7 +33142,8 @@
             "_textAnswer": "7 N"
           }
         },
-        "Number": 56
+        "Number": 56,
+        "PageId": 19
       },
       "57": {
         "_answerCorrect": "A",
@@ -32604,7 +33197,8 @@
             "_textAnswer": "15 N"
           }
         },
-        "Number": 57
+        "Number": 57,
+        "PageId": 19
       },
       "18": {
         "_answerCorrect": "A",
@@ -32662,7 +33256,8 @@
             "_textAnswer": "2"
           }
         },
-        "Number": 18
+        "Number": 18,
+        "PageId": 19
       },
       "59": {
         "_answerCorrect": "A",
@@ -32712,7 +33307,8 @@
             "_textAnswer": "8 Nxs"
           }
         },
-        "Number": 59
+        "Number": 59,
+        "PageId": 20
       }
     }
   }
