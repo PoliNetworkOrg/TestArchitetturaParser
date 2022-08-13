@@ -19,7 +19,7 @@ public static class MainParser
         for (var i = 0; i < document.NumberOfPages; i++)
         {
             var page = document.GetPage(i + 1);
-            ParsePage(result, page, pageId: i);
+            ParsePage(result, page, pageId: i + 1);
         }
 
         return result;
